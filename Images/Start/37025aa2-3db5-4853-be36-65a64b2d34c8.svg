@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 80 80" xml:space="preserve" class="ee-arrow__svg">
+					<defs>
+						<clipPath id="clipLoader2d024bc">
+							<circle cx="40" cy="40" r="40"></circle>
+						</clipPath>
+					</defs>
+					<circle transform="rotate(-90 40 40)" class="ee-arrow__circle--loader" stroke-dasharray="227" stroke-dashoffset="227" cx="40" cy="40" r="40" fill="transparent" stroke="transparent" stroke-width="4" vector-effect="non-scaling-stroke" clip-path="url(#clipLoader2d024bc)"></circle>
+				</svg>

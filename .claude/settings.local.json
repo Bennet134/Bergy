@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"var window={}; require\\(''F:/Projects/Berghoff/i18n.js''\\); console.log\\(''OK – DE:'', Object.keys\\(window.TRANSLATIONS.de\\).length, ''EN:'', Object.keys\\(window.TRANSLATIONS.en\\).length\\)\")"
+    ]
+  }
+}

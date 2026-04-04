@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Berghoff GmbH – CNC-Präzisionsfertigung</title>
+  <meta name="description" content="Berghoff GmbH – Ihr Partner für CNC-Präzisionsteile und komplexe Baugruppen für Halbleiter-, Luft- und Raumfahrt-, Medizin- und Energietechnik. Standorte Drolshagen und Wenden." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="Images/Berghoff_Icon.png" />
+</head>
+<body>
+
+<!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo-link" aria-label="Berghoff GmbH – Startseite">
+      <img src="Images/Start/Berghoff_logo.png" alt="Berghoff GmbH – pure performance · absolute precision" class="logo-img" />
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+      <ul>
+        <li><a href="index.html"            class="nav-active" data-i18n="nav_home"></a></li>
+        <li><a href="#leistungen"                              data-i18n="nav_leistungen"></a></li>
+        <li><a href="#unternehmen"                             data-i18n="nav_unternehmen"></a></li>
+        <li><a href="maschinenpark.html"                       data-i18n="nav_maschinenpark"></a></li>
+        <li><a href="karriere.html"                            data-i18n="nav_karriere"></a></li>
+        <li><a href="#kontakt" class="nav-cta"                 data-i18n="nav_kontakt"></a></li>
+      </ul>
+    </nav>
+
+    <div class="header-tools">
+      <div class="lang-switch" aria-label="Sprache wechseln">
+        <button class="lang-btn active" data-lang="de">DE</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menü" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ═══════════════════════════ HERO ════════════════════════════ -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="hero-bg-img"></div>
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="container hero-content">
+    <div class="hero-label" data-i18n="hero_label"></div>
+    <p class="hero-slogan">
+      <span>pure performance</span><span class="hero-slogan-sep"> · </span><span class="hero-slogan-em">absolute precision</span>
+    </p>
+    <h1 data-i18n="hero_headline"></h1>
+    <p class="hero-sub" data-i18n="hero_sub"></p>
+    <div class="hero-actions">
+      <a href="#kontakt" class="btn btn-primary" data-i18n="hero_cta_primary"></a>
+      <a href="#leistungen" class="btn btn-outline" data-i18n="hero_cta_secondary"></a>
+    </div>
+    <div class="hero-badges">
+      <div class="badge"><span class="badge-icon">✓</span><span data-i18n="badge_iso"></span></div>
+      <div class="badge"><span class="badge-icon">✓</span><span data-i18n="badge_en9100"></span></div>
+      <div class="badge"><span class="badge-icon">✓</span><span data-i18n="badge_rr"></span></div>
+    </div>
+  </div>
+  <a href="#leistungen" class="hero-scroll" aria-label="Weiter scrollen">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4v12M4 10l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </a>
+</section>
+
+<!-- ═══════════════════════════ STATS BAR ═══════════════════════ -->
+<div class="stats-bar">
+  <div class="container stats-inner">
+    <div class="stat"><span class="stat-num">40+</span><span class="stat-label" data-i18n="stat_years"></span></div>
+    <div class="stat-div"></div>
+    <div class="stat"><span class="stat-num">2</span><span class="stat-label" data-i18n="stat_sites"></span></div>
+    <div class="stat-div"></div>
+    <div class="stat"><span class="stat-num">6</span><span class="stat-label" data-i18n="stat_industries"></span></div>
+    <div class="stat-div"></div>
+    <div class="stat"><span class="stat-num">ISO 9001<br>EN 9100</span><span class="stat-label" data-i18n="stat_certs"></span></div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ LEISTUNGEN ══════════════════════ -->
+<section class="section" id="leistungen">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label" data-i18n="lei_label"></div>
+      <h2 data-i18n="lei_headline"></h2>
+      <p class="section-intro" data-i18n="lei_intro"></p>
+    </div>
+    <div class="cap-grid">
+      <div class="cap-card">
+        <div class="cap-icon">
+          <svg viewBox="0 0 48 48" fill="none"><rect x="4" y="34" width="40" height="6" rx="2" stroke="currentColor" stroke-width="2"/><rect x="10" y="14" width="8" height="20" rx="1" stroke="currentColor" stroke-width="2"/><rect x="20" y="8" width="8" height="26" rx="1" stroke="currentColor" stroke-width="2"/><rect x="30" y="18" width="8" height="16" rx="1" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3 data-i18n="lei1_title"></h3>
+        <p data-i18n="lei1_text"></p>
+        <ul class="cap-list" data-i18n-list="lei1_list"></ul>
+      </div>
+      <div class="cap-card">
+        <div class="cap-icon">
+          <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M11.03 11.03l4.24 4.24M32.73 32.73l4.24 4.24M11.03 36.97l4.24-4.24M32.73 15.27l4.24-4.24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3 data-i18n="lei2_title"></h3>
+        <p data-i18n="lei2_text"></p>
+        <ul class="cap-list" data-i18n-list="lei2_list"></ul>
+      </div>
+      <div class="cap-card">
+        <div class="cap-icon">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M8 40V24l8-8h16l8 8v16H8z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M16 16V8h16v8" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="28" r="4" stroke="currentColor" stroke-width="2"/><path d="M24 32v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3 data-i18n="lei3_title"></h3>
+        <p data-i18n="lei3_text"></p>
+        <ul class="cap-list" data-i18n-list="lei3_list"></ul>
+      </div>
+      <div class="cap-card">
+        <div class="cap-icon">
+          <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="28" rx="2" stroke="currentColor" stroke-width="2"/><path d="M6 18h36M16 10v28" stroke="currentColor" stroke-width="2"/><circle cx="28" cy="30" r="4" stroke="currentColor" stroke-width="2"/><path d="M28 26v-4M28 34v4M24 30h-4M32 30h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3 data-i18n="lei4_title"></h3>
+        <p data-i18n="lei4_text"></p>
+        <ul class="cap-list" data-i18n-list="lei4_list"></ul>
+      </div>
+      <div class="cap-card">
+        <div class="cap-icon">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M24 6L6 16v16l18 10 18-10V16L24 6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M6 16l18 10 18-10M24 26v16" stroke="currentColor" stroke-width="2"/></svg>
+        </div>
+        <h3 data-i18n="lei5_title"></h3>
+        <p data-i18n="lei5_text"></p>
+        <ul class="cap-list" data-i18n-list="lei5_list"></ul>
+      </div>
+      <div class="cap-card cap-card--highlight">
+        <div class="cap-highlight-inner">
+          <h3 data-i18n="lei6_title"></h3>
+          <p data-i18n="lei6_text"></p>
+          <a href="#kontakt" class="btn btn-primary btn-sm" data-i18n="lei6_cta"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ 3SVIP PROZESS ═══════════════════ -->
+<section class="section" id="prozess">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Fertigungsprozess</div>
+      <h2>Von der Beschaffung bis zur Lieferung — alles aus einer Hand</h2>
+      <p class="section-intro">Weniger Schnittstellen. Höhere Zuverlässigkeit. Kürzere Durchlaufzeiten. Berghoff übernimmt die vollständige Wertschöpfungskette — vom Rohmaterial bis zum montierten, verpackten Bauteil.</p>
+    </div>
+    <div class="svip-layout">
+      <div class="svip-steps">
+        <div class="svip-step">
+          <div class="svip-step-num">01</div>
+          <div class="svip-step-body">
+            <h3>Materialbeschaffung</h3>
+            <p>Beschaffung von Rohmaterial und Halbzeugen direkt aus qualifizierten Lieferketten — nach Zeichnungsvorgabe, werkstoffgeprüft und lückenlos rückverfolgbar. Ein Ansprechpartner, kein Koordinationsaufwand für Sie.</p>
+          </div>
+        </div>
+        <div class="svip-step">
+          <div class="svip-step-num">02</div>
+          <div class="svip-step-body">
+            <h3>Fertigung & Bearbeitung</h3>
+            <p>CNC-Drehen, Fräsen, Schleifen und Messtechnik — vollständig in unseren Werken in Drolshagen und Wenden. Komplexe Toleranzen, dokumentierte Prüfprotokolle, reproduzierbare Qualität.</p>
+          </div>
+        </div>
+        <div class="svip-step">
+          <div class="svip-step-num">03</div>
+          <div class="svip-step-body">
+            <h3>Montage & Lieferung</h3>
+            <p>Komplettmontage von Baugruppen bis Modulebene, reinraumgerechte Verpackung nach Cleanliness-Klasse — termingerecht, direkt an Ihren Standort oder in Ihre Fertigung.</p>
+          </div>
+        </div>
+        <div class="svip-trademark">
+          <img src="Images/Start/3-step-vertical-integration-process-logo-final-scaled-1.png" alt="3SVIP® – 3-Step Vertical Integration Process" />
+          <p>Der <strong>3SVIP®</strong> (3-Step Vertical Integration Process) ist der systematische Ansatz, mit dem Berghoff die gesamte Fertigungskette intern koordiniert und steuert — für maximale Transparenz und minimale Risiken auf Ihrer Seite.</p>
+        </div>
+      </div>
+      <div class="svip-visual">
+        <img src="Images/Start/3-step-vertical-integration-process-berghoff-768x764.jpg.jpeg" alt="3-Step Vertical Integration Process – Berghoff GmbH" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ BRANCHEN ════════════════════════ -->
+<section class="section section--alt" id="branchen">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label" data-i18n="bra_label"></div>
+      <h2 data-i18n="bra_headline"></h2>
+      <p class="section-intro" data-i18n="bra_intro"></p>
+    </div>
+    <div class="ind-grid ind-grid--3col">
+      <div class="ind-card">
+        <div class="ind-img ind-img--semi"></div>
+        <div class="ind-body">
+          <h3 data-i18n="bra1_title"></h3>
+          <p data-i18n="bra1_text"></p>
+          <div class="ind-tags" data-i18n-tags="bra1_tags"></div>
+        </div>
+      </div>
+      <div class="ind-card">
+        <div class="ind-img ind-img--aero"></div>
+        <div class="ind-body">
+          <h3 data-i18n="bra2_title"></h3>
+          <p data-i18n="bra2_text"></p>
+          <div class="ind-tags" data-i18n-tags="bra2_tags"></div>
+        </div>
+      </div>
+      <div class="ind-card">
+        <div class="ind-img ind-img--med"></div>
+        <div class="ind-body">
+          <h3 data-i18n="bra3_title"></h3>
+          <p data-i18n="bra3_text"></p>
+          <div class="ind-tags" data-i18n-tags="bra3_tags"></div>
+        </div>
+      </div>
+      <div class="ind-card">
+        <div class="ind-img ind-img--pump"></div>
+        <div class="ind-body">
+          <h3 data-i18n="bra4_title"></h3>
+          <p data-i18n="bra4_text"></p>
+          <div class="ind-tags" data-i18n-tags="bra4_tags"></div>
+        </div>
+      </div>
+      <div class="ind-card">
+        <div class="ind-img ind-img--energy"></div>
+        <div class="ind-body">
+          <h3 data-i18n="bra5_title"></h3>
+          <p data-i18n="bra5_text"></p>
+          <div class="ind-tags" data-i18n-tags="bra5_tags"></div>
+        </div>
+      </div>
+      <div class="ind-card">
+        <div class="ind-img ind-img--oil"></div>
+        <div class="ind-body">
+          <h3 data-i18n="bra6_title"></h3>
+          <p data-i18n="bra6_text"></p>
+          <div class="ind-tags" data-i18n-tags="bra6_tags"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ UNTERNEHMEN ═════════════════════ -->
+<section class="section" id="unternehmen">
+  <div class="container">
+    <div class="unt-layout">
+      <div class="unt-text">
+        <div class="section-label" data-i18n="unt_label"></div>
+        <h2 data-i18n="unt_headline"></h2>
+        <p data-i18n="unt_text1"></p>
+        <p data-i18n="unt_text2"></p>
+        <div class="unt-standorte">
+          <div class="standort">
+            <div class="standort-label" data-i18n="unt_site1_label"></div>
+            <div class="standort-addr">Langenheid 1<br>57489 Drolshagen</div>
+          </div>
+          <div class="standort">
+            <div class="standort-label" data-i18n="unt_site2_label"></div>
+            <div class="standort-addr">Im Ruttenberge 6<br>57482 Wenden</div>
+          </div>
+        </div>
+      </div>
+      <div class="unt-pillars">
+        <div class="unt-pillar">
+          <div class="unt-pillar-num">01</div>
+          <h4 data-i18n="unt_p1_title"></h4>
+          <p data-i18n="unt_p1_text"></p>
+        </div>
+        <div class="unt-pillar">
+          <div class="unt-pillar-num">02</div>
+          <h4 data-i18n="unt_p2_title"></h4>
+          <p data-i18n="unt_p2_text"></p>
+        </div>
+        <div class="unt-pillar">
+          <div class="unt-pillar-num">03</div>
+          <h4 data-i18n="unt_p3_title"></h4>
+          <p data-i18n="unt_p3_text"></p>
+        </div>
+        <div class="unt-pillar">
+          <div class="unt-pillar-num">04</div>
+          <h4 data-i18n="unt_p4_title"></h4>
+          <p data-i18n="unt_p4_text"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ QUALITÄT ════════════════════════ -->
+<section class="section section--dark" id="qualitaet">
+  <div class="container">
+    <div class="section-header section-header--light">
+      <div class="section-label" data-i18n="qual_label"></div>
+      <h2 data-i18n="qual_headline"></h2>
+      <p class="section-intro" data-i18n="qual_intro"></p>
+    </div>
+    <div class="qual-grid">
+      <div class="qual-cert">
+        <div class="cert-badge">ISO<br>9001</div>
+        <div class="cert-info">
+          <h4 data-i18n="cert1_title"></h4>
+          <p data-i18n="cert1_text"></p>
+        </div>
+      </div>
+      <div class="qual-cert">
+        <div class="cert-badge">EN<br>9100</div>
+        <div class="cert-info">
+          <h4 data-i18n="cert2_title"></h4>
+          <p data-i18n="cert2_text"></p>
+        </div>
+      </div>
+      <div class="qual-cert">
+        <div class="cert-badge cert-badge--outline">RR</div>
+        <div class="cert-info">
+          <h4 data-i18n="cert3_title"></h4>
+          <p data-i18n="cert3_text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="qual-pillars">
+      <div class="qual-pillar" data-i18n="qual_p1"></div>
+      <div class="qual-pillar" data-i18n="qual_p2"></div>
+      <div class="qual-pillar" data-i18n="qual_p3"></div>
+      <div class="qual-pillar" data-i18n="qual_p4"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ TEASER PAGES ════════════════════ -->
+<section class="section section--alt" id="mehr">
+  <div class="container">
+    <div class="teaser-grid">
+      <a href="maschinenpark.html" class="teaser-card">
+        <div class="teaser-icon">
+          <svg viewBox="0 0 48 48" fill="none"><rect x="4" y="8" width="40" height="32" rx="2" stroke="currentColor" stroke-width="2"/><path d="M4 16h40M12 16v24M12 24h16M12 32h10" stroke="currentColor" stroke-width="2"/><circle cx="34" cy="30" r="6" stroke="currentColor" stroke-width="2"/><path d="M34 27v3l2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3 data-i18n="teaser_mach_title"></h3>
+        <p data-i18n="teaser_mach_text"></p>
+        <span class="teaser-link" data-i18n="teaser_more"></span>
+      </a>
+      <a href="karriere.html" class="teaser-card">
+        <div class="teaser-icon">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M24 6a8 8 0 1 1 0 16 8 8 0 0 1 0-16z" stroke="currentColor" stroke-width="2"/><path d="M8 42c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3 data-i18n="teaser_kar_title"></h3>
+        <p data-i18n="teaser_kar_text"></p>
+        <span class="teaser-link" data-i18n="teaser_more"></span>
+      </a>
+      <a href="lieferant.html" class="teaser-card">
+        <div class="teaser-icon">
+          <svg viewBox="0 0 48 48" fill="none"><path d="M6 12h36v26a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V12z" stroke="currentColor" stroke-width="2"/><path d="M6 12l6-6h24l6 6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M18 24l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 data-i18n="teaser_sup_title"></h3>
+        <p data-i18n="teaser_sup_text"></p>
+        <span class="teaser-link" data-i18n="teaser_more"></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ ANSPRECHPARTNER ══════════════════ -->
+<section class="section" id="team">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label" data-i18n="team_label"></div>
+      <h2 data-i18n="team_headline"></h2>
+      <p class="section-intro" data-i18n="team_intro"></p>
+    </div>
+    <div class="team-grid">
+
+      <!-- Zentrale -->
+      <div class="team-group">
+        <div class="team-group-label" data-i18n="team_grp_zentrale"></div>
+        <div class="zentrale-card">
+          <div class="zentrale-sites">
+            <div class="zentrale-site">
+              <strong>Drolshagen</strong>
+              <span>Langenheid 1<br>57489 Drolshagen</span>
+            </div>
+            <div class="zentrale-site">
+              <strong>Wenden</strong>
+              <span>Im Ruttenberge 6<br>57482 Wenden</span>
+            </div>
+          </div>
+          <div class="zentrale-contacts">
+            <a href="tel:+4927632127900" class="zentrale-link">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.16 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.11 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.09a16 16 0 0 0 5.83 5.83l1.26-1.26a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16v.92z" stroke="currentColor" stroke-width="1.5"/></svg>
+              +49 2763 21279-0
+            </a>
+            <a href="mailto:info@berghoff.eu" class="zentrale-link">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.5"/></svg>
+              info@berghoff.eu
+            </a>
+            <span class="zentrale-hours">Mo – Fr · 07:00 – 16:00 Uhr</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Geschäftsführung -->
+      <div class="team-group">
+        <div class="team-group-label" data-i18n="team_grp_management"></div>
+        <div class="team-cards">
+          <div class="team-card">
+            <div class="team-avatar has-photo" data-initials="UB" style="background-image:url('Images/Start/Ulrich-Berghoff-2022.jpg.jpeg')"></div>
+            <div class="team-info">
+              <h3>Ulrich Berghoff</h3>
+              <div class="team-role" data-i18n="team_role_gf"></div>
+              <div class="team-contacts">
+                <a href="tel:+4927632127900" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.16 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.11 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.09a16 16 0 0 0 5.83 5.83l1.26-1.26a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16v.92z" stroke="currentColor" stroke-width="1.5"/></svg>
+                  +49 2763 21279-0
+                </a>
+                <a href="mailto:ulrich.berghoff@berghoff.eu" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.5"/></svg>
+                  ulrich.berghoff@berghoff.eu
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar has-photo" data-initials="MB" style="background-image:url('Images/Start/Berghoff-Markus-2022.jpg.jpeg')"></div>
+            <div class="team-info">
+              <h3>Markus Berghoff</h3>
+              <div class="team-role" data-i18n="team_role_gf"></div>
+              <div class="team-contacts">
+                <a href="tel:+4927632127900" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.16 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.11 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.09a16 16 0 0 0 5.83 5.83l1.26-1.26a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16v.92z" stroke="currentColor" stroke-width="1.5"/></svg>
+                  +49 2763 21279-0
+                </a>
+                <a href="mailto:markus.berghoff@berghoff.eu" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.5"/></svg>
+                  markus.berghoff@berghoff.eu
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Abteilungsleiter -->
+      <div class="team-group">
+        <div class="team-group-label" data-i18n="team_grp_leads"></div>
+        <div class="team-cards">
+          <div class="team-card">
+            <div class="team-avatar has-photo" data-initials="DH" style="background-image:url('Images/Start/Dirk-Hildebrandt-2022.jpg.jpeg')"></div>
+            <div class="team-info">
+              <h3>Dirk Hildebrandt</h3>
+              <div class="team-role" data-i18n="team_role_tech"></div>
+              <div class="team-contacts">
+                <a href="tel:+4927632127942" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.16 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.11 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.09a16 16 0 0 0 5.83 5.83l1.26-1.26a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16v.92z" stroke="currentColor" stroke-width="1.5"/></svg>
+                  +49 2763 21279-42
+                </a>
+                <a href="mailto:dirk.hildebrandt@berghoff.eu" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.5"/></svg>
+                  dirk.hildebrandt@berghoff.eu
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar has-photo" data-initials="MP" style="background-image:url('Images/Start/Matthias-Platte-2022.jpg.jpeg')"></div>
+            <div class="team-info">
+              <h3>Matthias Platte</h3>
+              <div class="team-role" data-i18n="team_role_qm"></div>
+              <div class="team-contacts">
+                <a href="tel:+4915165221067" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.16 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.11 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.09a16 16 0 0 0 5.83 5.83l1.26-1.26a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16v.92z" stroke="currentColor" stroke-width="1.5"/></svg>
+                  +49 151 65221067
+                </a>
+                <a href="mailto:matthias.platte@berghoff.eu" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-02 2-2z" stroke="currentColor" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.5"/></svg>
+                  matthias.platte@berghoff.eu
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar has-photo" data-initials="JM" style="background-image:url('Images/Start/Joerg-Merx-2022.jpg.jpeg')"></div>
+            <div class="team-info">
+              <h3>Jörg Merx</h3>
+              <div class="team-role" data-i18n="team_role_sales"></div>
+              <div class="team-contacts">
+                <a href="tel:+4915115439232" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.16 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.11 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.09a16 16 0 0 0 5.83 5.83l1.26-1.26a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16v.92z" stroke="currentColor" stroke-width="1.5"/></svg>
+                  +49 151 15439232
+                </a>
+                <a href="mailto:joerg.merx@berghoff.eu" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.5"/></svg>
+                  joerg.merx@berghoff.eu
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar has-photo" data-initials="SS" style="background-image:url('Images/Start/Sonja-Saul-2022.jpg.jpeg')"></div>
+            <div class="team-info">
+              <h3>Sonja Saul</h3>
+              <div class="team-role" data-i18n="team_role_hr"></div>
+              <div class="team-contacts">
+                <a href="tel:+4927632127920" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.16 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.11 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.09a16 16 0 0 0 5.83 5.83l1.26-1.26a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16v.92z" stroke="currentColor" stroke-width="1.5"/></svg>
+                  +49 2763 21279-20
+                </a>
+                <a href="mailto:sonja.saul@berghoff.eu" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.5"/></svg>
+                  sonja.saul@berghoff.eu
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-avatar has-photo" data-initials="CD" style="background-image:url('Images/Start/Christoph-Doemer-2022.jpg.jpeg')"></div>
+            <div class="team-info">
+              <h3>Christoph Dömer</h3>
+              <div class="team-role" data-i18n="team_role_ausb"></div>
+              <div class="team-contacts">
+                <a href="tel:+4927629874016" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.16 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.11 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.09a16 16 0 0 0 5.83 5.83l1.26-1.26a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16v.92z" stroke="currentColor" stroke-width="1.5"/></svg>
+                  +49 2762 9874-16
+                </a>
+                <a href="mailto:christoph.doemer@berghoff.eu" class="team-contact-item">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.5"/></svg>
+                  christoph.doemer@berghoff.eu
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ KONTAKT ═════════════════════════ -->
+<section class="section section--alt" id="kontakt">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label" data-i18n="kon_label"></div>
+      <h2 data-i18n="kon_headline"></h2>
+      <p class="section-intro" data-i18n="kon_intro"></p>
+    </div>
+    <div class="contact-layout">
+      <div class="contact-info">
+        <div class="contact-block">
+          <div class="contact-block-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <div>
+            <div class="contact-block-label" data-i18n="kon_site1"></div>
+            <div>Langenheid 1<br>57489 Drolshagen</div>
+          </div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <div>
+            <div class="contact-block-label" data-i18n="kon_site2"></div>
+            <div>Im Ruttenberge 6<br>57482 Wenden</div>
+          </div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.16 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.11 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.09a16 16 0 0 0 5.83 5.83l1.26-1.26a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16v.92z" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <div>
+            <div class="contact-block-label" data-i18n="kon_phone_label"></div>
+            <a href="tel:+4927632127900">+49 2763 21279-0</a>
+          </div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <div>
+            <div class="contact-block-label" data-i18n="kon_email_label"></div>
+            <a href="mailto:info@berghoff.eu">info@berghoff.eu</a>
+          </div>
+        </div>
+        <div class="contact-block">
+          <div class="contact-block-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div>
+            <div class="contact-block-label" data-i18n="kon_hours_label"></div>
+            <span data-i18n="kon_hours_text"></span>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-name" data-i18n="form_name"></label>
+            <input type="text" id="f-name" name="name" required autocomplete="name" data-i18n-ph="form_name_ph" />
+          </div>
+          <div class="form-group">
+            <label for="f-company" data-i18n="form_company"></label>
+            <input type="text" id="f-company" name="company" autocomplete="organization" data-i18n-ph="form_company_ph" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-email" data-i18n="form_email"></label>
+            <input type="email" id="f-email" name="email" required autocomplete="email" data-i18n-ph="form_email_ph" />
+          </div>
+          <div class="form-group">
+            <label for="f-phone" data-i18n="form_phone"></label>
+            <input type="tel" id="f-phone" name="phone" autocomplete="tel" data-i18n-ph="form_phone_ph" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="f-subject" data-i18n="form_subject"></label>
+          <select id="f-subject" name="subject">
+            <option value="" data-i18n="form_subject_default"></option>
+            <option value="quote"    data-i18n="form_subj1"></option>
+            <option value="info"     data-i18n="form_subj2"></option>
+            <option value="supplier" data-i18n="form_subj3"></option>
+            <option value="career"   data-i18n="form_subj4"></option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="f-message" data-i18n="form_message"></label>
+          <textarea id="f-message" name="message" rows="5" required data-i18n-ph="form_message_ph"></textarea>
+        </div>
+        <div class="form-group form-group--check">
+          <label class="checkbox-label">
+            <input type="checkbox" name="privacy" required />
+            <span data-i18n="form_privacy"></span>
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary" data-i18n="form_submit"></button>
+        <div class="form-success" id="form-success" hidden data-i18n="form_success_msg"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════ FOOTER ══════════════════════════ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <img src="Images/Start/berghoff_logo-weiss-gross.png" alt="Berghoff GmbH" class="footer-logo" />
+      <p class="footer-tagline" data-i18n="footer_tagline"></p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h5 data-i18n="footer_col1_title"></h5>
+        <ul>
+          <li><a href="#leistungen"       data-i18n="nav_leistungen"></a></li>
+          <li><a href="#branchen"          data-i18n="footer_branchen"></a></li>
+          <li><a href="maschinenpark.html" data-i18n="nav_maschinenpark"></a></li>
+          <li><a href="#qualitaet"         data-i18n="footer_quality"></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5 data-i18n="footer_col2_title"></h5>
+        <ul>
+          <li><a href="#unternehmen"  data-i18n="nav_unternehmen"></a></li>
+          <li><a href="karriere.html" data-i18n="nav_karriere"></a></li>
+          <li><a href="lieferant.html" data-i18n="footer_supplier"></a></li>
+          <li><a href="#kontakt"       data-i18n="nav_kontakt"></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5 data-i18n="footer_col3_title"></h5>
+        <ul>
+          <li><a href="impressum.html" data-i18n="footer_imprint"></a></li>
+          <li><a href="datenschutz.html" data-i18n="footer_privacy"></a></li>
+          <li><a href="agb.html" data-i18n="footer_terms"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <img src="Images/Start/berghoff_logo-schwarz-gross.png" alt="Berghoff GmbH" class="footer-bottom-logo" />
+      <span data-i18n="footer_copy"></span>
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="de">DE</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
