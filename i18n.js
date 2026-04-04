@@ -123,6 +123,9 @@ de: {
   cert3_title: "Rolls-Royce Zulassung",
   cert3_text:  "Zugelassener Lieferant für Rolls-Royce Deutschland. Nachweise für Lieferantenqualifikation und Prozesskontrolle nach Aerospace-Standard.",
 
+  cert4_title: "EN ISO 9712 / DIN EN 473",
+  cert4_text:  "Zerstörungsfreie Prüfung (ZfP) – Qualifizierung und Zertifizierung von ZfP-Personal. Grundlage für die zuverlässige Prüfung sicherheitskritischer Bauteile.",
+
   qual_p1: "100 % Rückverfolgbarkeit",
   qual_p2: "Erstmusterprüfbericht (EMPB)",
   qual_p3: "Materialzertifikate nach EN 10204",
@@ -441,6 +444,9 @@ en: {
 
   cert3_title: "Rolls-Royce Approval",
   cert3_text:  "Approved supplier for Rolls-Royce Germany. Qualification evidence and process control verified to aerospace standard.",
+
+  cert4_title: "EN ISO 9712 / DIN EN 473",
+  cert4_text:  "Non-Destructive Testing (NDT) – Qualification and certification of NDT personnel. Basis for reliable inspection of safety-critical components.",
 
   qual_p1: "100% Traceability",
   qual_p2: "First Article Inspection Report",
