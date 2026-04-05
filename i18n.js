@@ -18,7 +18,7 @@ de: {
   /* Hero */
   hero_label:         "CNC-Präzisionsfertigung",
   hero_headline:      "Komplexe Bauteile.\nPräzise gefertigt.\nZuverlässig geliefert.",
-  hero_sub:           "Berghoff ist Ihr Fertigungspartner für hochkomplexe Präzisionsbauteile und Baugruppen – für führende Unternehmen in der Halbleiter-, Luft- und Raumfahrt-, Medizin- und Energietechnik.",
+  hero_sub:           "Berghoff fertigt hochkomplexe Präzisionsbauteile und Baugruppen für führende Unternehmen in der Halbleiter-, Luft- und Raumfahrt-, Medizin- und Energietechnik.",
   hero_cta_primary:   "Anfrage stellen",
   hero_cta_secondary: "Leistungen ansehen",
   badge_iso:   "ISO 9001:2015",
@@ -34,10 +34,10 @@ de: {
   /* Leistungen */
   lei_label:    "Leistungen",
   lei_headline: "Fertigung aus einer Hand",
-  lei_intro:    "Von der Einzelkomponente bis zur montierten Baugruppe bieten wir das vollständige Spektrum der CNC-Präzisionsfertigung – mit eigener Qualitätssicherung und koordinierter Lieferkette.",
+  lei_intro:    "Von der Einzelkomponente bis zur montierten Baugruppe decken wir das vollständige Spektrum der CNC-Präzisionsfertigung ab. Mit eigener Qualitätssicherung und koordinierter Lieferkette.",
 
   lei1_title: "5-Achs-CNC-Fräsen",
-  lei1_text:  "Simultane 5-Achs-Bearbeitung für komplexeste Geometrien in einem Setup – für minimale Umspannfehler und reproduzierbare Maßhaltigkeit in der Serie.",
+  lei1_text:  "Simultane 5-Achs-Bearbeitung für komplexe Geometrien in einem Setup. Minimale Umspannfehler, reproduzierbare Maßhaltigkeit in der Serie.",
   lei1_list:  ["Simultane 5-Achs-Bearbeitung", "Toleranzen bis ±0,002 mm", "Aluminium, Titan, Edelstahl, Nickelbasislegierungen", "Teile bis ca. 2.000 mm Länge"],
 
   lei2_title: "CNC-Drehen",
@@ -45,7 +45,7 @@ de: {
   lei2_list:  ["Drehen ab ø 2 mm bis ø 600 mm", "Dreh-Fräs-Kombination (6-achsig)", "Langdrehen für schlanke Konturen (Swiss-type)", "Hartdrehen bis 65 HRC"],
 
   lei3_title: "Baugruppen & Montage",
-  lei3_text:  "Komplette Baugruppen und Module aus einer Hand – mechanisch, elektromechanisch und auf Wunsch reinraumgerecht.",
+  lei3_text:  "Komplette Baugruppen und Module aus einer Hand: mechanisch, elektromechanisch, auf Wunsch reinraumgerecht.",
   lei3_list:  ["Mechanische und elektromechanische Montage", "Reinraumgerechte Baugruppen (ab 2026: ISO 6)", "Funktionsprüfungen nach Kundenvorgabe", "Vollständige Dokumentation"],
 
   lei4_title: "Reinraumfertigung",
@@ -53,10 +53,10 @@ de: {
   lei4_list:  ["Reinraum ISO Klasse 6", "Ultraschallreinigung und Vakuumentgasung", "Heliumlecktest und Restgasanalyse", "Reinraumgerechte Verpackung"],
 
   lei5_title: "Komplettlösungen",
-  lei5_text:  "Rohmaterial, Wärmebehandlung, Oberflächenveredelung, Reinigung – wir koordinieren die gesamte Prozesskette und liefern fertige Lösungen.",
+  lei5_text:  "Wir koordinieren die gesamte Prozesskette: Rohmaterial, Wärmebehandlung, Oberflächenveredelung, Reinigung. Lieferung als fertige Lösung.",
   lei5_list:  ["Materialbeschaffung und Zertifikate", "Elektronenstrahlschweißen, Vakuumlöten", "Sonderoberflächen und Beschichtungen", "Lieferung als fertige Baugruppe"],
 
-  lei6_title: "Ihr Bauteil – unser Auftrag",
+  lei6_title: "Ihr Bauteil ist unser Auftrag",
   lei6_text:  "Schicken Sie uns Ihre Zeichnung oder CAD-Datei. Wir prüfen die Fertigbarkeit und erstellen zeitnah ein technisch fundiertes Angebot.",
   lei6_cta:   "Anfrage stellen",
 
@@ -70,7 +70,7 @@ de: {
   bra1_tags:  ["EUV-Lithografie", "Vakuumtechnik", "Waferhandling", "Optische Systeme"],
 
   bra2_title: "Luft- & Raumfahrt",
-  bra2_text:  "Sicherheitskritische Bauteile nach EN 9100 für Struktur-, Hydraulik- und Antriebssysteme – aus Nickelbasislegierungen, Titan und Faserverbundwerkstoffen.",
+  bra2_text:  "Sicherheitskritische Bauteile nach EN 9100 für Struktur-, Hydraulik- und Antriebssysteme. Werkstoffe: Nickelbasislegierungen, Titan, Faserverbundwerkstoffe.",
   bra2_tags:  ["EN 9100", "Strukturbauteile", "Hydraulik", "Titan & Inconel"],
 
   bra3_title: "Medizintechnik",
@@ -78,41 +78,41 @@ de: {
   bra3_tags:  ["Implantate", "Instrumente", "Reinraumfähig", "Chrom-Kobalt / Titan"],
 
   bra4_title: "Pumpen & Extruder",
-  bra4_text:  "Präzisionskomponenten für Dosierpumpen, Extruder und Verarbeitungsanlagen – für höchste Anforderungen an Formgenauigkeit, Oberflächengüte und Laufruhe.",
+  bra4_text:  "Präzisionskomponenten für Dosierpumpen, Extruder und Verarbeitungsanlagen. Anforderungen: hohe Formgenauigkeit, definierte Oberflächengüte, Laufruhe.",
   bra4_tags:  ["Dosiertechnik", "Extruderbauteile", "Schraub- & Zahnradelemente", "Hochdrucktechnik"],
 
   bra5_title: "Energietechnik",
-  bra5_text:  "Komponenten für Gas- und Dampfturbinen, Generatoren und Wasserstoffsysteme – ausgelegt für extreme Temperaturen, mechanische Belastungen und lange Standzeiten.",
+  bra5_text:  "Komponenten für Gas- und Dampfturbinen, Generatoren und Wasserstoffsysteme. Ausgelegt für extreme Temperaturen, hohe mechanische Belastungen und lange Standzeiten.",
   bra5_tags:  ["Gasturbinen", "H₂-Systeme", "Hochtemperaturwerkstoffe", "Generatoren"],
 
   bra6_title: "Öl & Gas",
-  bra6_text:  "Robuste Präzisionsteile für On- und Offshore-Anlagen, Pipelines, Kompressoren und LNG-Infrastruktur – zuverlässig und nach internationalen Normen gefertigt.",
+  bra6_text:  "Präzisionsteile für On- und Offshore-Anlagen, Pipelines, Kompressoren und LNG-Infrastruktur. Gefertigt nach internationalen Normen.",
   bra6_tags:  ["Offshore & Onshore", "Kompressoren", "LNG", "Pipeline-Infrastruktur"],
 
   /* Unternehmen */
   unt_label:    "Unternehmen",
-  unt_headline: "Seit über 40 Jahren Präzision aus Überzeugung",
-  unt_text1:    "Berghoff ist ein inhabergeführtes Familienunternehmen mit zwei Produktionsstandorten in Südwestfalen. Was 1983 als spezialisierter Zulieferer begann, ist heute ein international gefragter Partner für hochkomplexe Fertigungsaufgaben in technologisch anspruchsvollen Industrien.",
-  unt_text2:    "Wir verstehen uns als strategischen Fertigungspartner entlang der gesamten Wertschöpfungskette unserer Kunden – von der Planung über die Fertigung bis zur Lieferung fertig montierter Baugruppen. Kurze Reaktionszeiten, transparente Kommunikation und gewachsene Lieferantenbeziehungen sind die Grundlage unserer Partnerschaften.",
+  unt_headline: "Präzisionsfertigung seit über 40 Jahren",
+  unt_text1:    "Berghoff ist ein inhabergeführtes Familienunternehmen mit zwei Produktionsstandorten in Südwestfalen. 1983 gegründet als spezialisierter Zulieferer, heute Partner für hochkomplexe Fertigungsaufgaben in anspruchsvollen Industrien.",
+  unt_text2:    "Wir übernehmen die vollständige Wertschöpfungskette: von der Planung über die Fertigung bis zur Lieferung fertig montierter Baugruppen. Kurze Reaktionszeiten, transparente Kommunikation und stabile Lieferantenbeziehungen sind die Grundlage unserer Zusammenarbeit.",
   unt_site1_label: "Hauptstandort Drolshagen",
   unt_site2_label: "Zweigwerk Wenden",
 
   unt_p1_title: "Qualität",
-  unt_p1_text:  "Fertigungsqualität, die messbar ist. Jedes Bauteil wird durch eigene Messtechnik abgesichert – nicht nur stichprobenartig.",
+  unt_p1_text:  "Fertigungsqualität, die messbar ist. Jedes Bauteil wird durch eigene Messtechnik geprüft, nicht nur stichprobenartig.",
 
   unt_p2_title: "Logistik",
   unt_p2_text:  "Optimierte Durchlaufzeiten, Just-in-Time-Lieferung und transparente Kapazitätsplanung. Terminzusagen sind bei uns Verpflichtungen.",
 
   unt_p3_title: "Technologie",
-  unt_p3_text:  "Kontinuierliche Investitionen in moderne Maschinen und Verfahren. Prototypen agil realisierbar in unter 4 Wochen.",
+  unt_p3_text:  "Kontinuierliche Investitionen in moderne Maschinen und Verfahren. Prototypen realisierbar in unter 4 Wochen.",
 
   unt_p4_title: "Kosten",
-  unt_p4_text:  "Langfristige Kostenoptimierung durch Fertigungsplanung, Prozessverbesserung und koordinierte Lieferketten statt kurzfristiger Preisversprechen.",
+  unt_p4_text:  "Kostenoptimierung durch Fertigungsplanung, Prozessverbesserung und koordinierte Lieferketten. Keine kurzfristigen Preisversprechen.",
 
   /* Qualität */
   qual_label:    "Qualität & Zertifizierung",
-  qual_headline: "Qualität ist kein Versprechen – sie ist nachweisbar",
-  qual_intro:    "Unser Qualitätsmanagementsystem ist mehrfach zertifiziert und wird regelmäßig extern auditiert. Vollständige Rückverfolgbarkeit aller Materialien und Fertigungsschritte ist Standard.",
+  qual_headline: "Qualität ist nachweisbar",
+  qual_intro:    "Unser Qualitätsmanagementsystem ist mehrfach zertifiziert und wird regelmäßig extern auditiert. Vollständige Rückverfolgbarkeit aller Materialien und Fertigungsschritte ist bei uns Standard.",
 
   cert1_title: "ISO 9001:2015",
   cert1_text:  "Zertifiziertes Qualitätsmanagementsystem für alle Fertigungsbereiche an beiden Standorten. Jährliche Überwachungs- und Rezertifizierungsaudits durch akkreditierte Stellen.",
@@ -189,10 +189,10 @@ de: {
   mach_page_meta:       "Moderner Maschinenpark für CNC-Präzisionsfertigung: 5-Achs-BAZ, Dreh-Fräszentren, Schleifmaschinen und Messtechnik bei Berghoff GmbH.",
   mach_hero_label:      "Technologie & Infrastruktur",
   mach_hero_title:      "Maschinenpark",
-  mach_hero_sub:        "Modernste CNC-Technologie, klimatisierte Produktionshallen und vollständig vernetzte Messtechnik – die Grundlage für Präzision, die reproduzierbar ist.",
+  mach_hero_sub:        "Modernste CNC-Technologie, klimatisierte Produktionshallen und vollständig integrierte Messtechnik. Präzision, die reproduzierbar ist.",
   mach_intro_label:     "Übersicht",
-  mach_intro_title:     "Best-in-Class-Fertigungsbedingungen",
-  mach_intro_text:      "Unser Maschinenpark wird kontinuierlich erweitert und auf aktuellem Stand gehalten. Alle Hallen sind klimatisiert, die Messtechnik ist prozessnah integriert. Die Vernetzung unserer CNC-Maschinen ermöglicht flexible Kapazitätsplanung und hohe Auslastungseffizienz.",
+  mach_intro_title:     "Fertigungsbedingungen auf aktuellem Stand",
+  mach_intro_text:      "Unser Maschinenpark wird kontinuierlich erweitert und aktualisiert. Alle Hallen sind klimatisiert. Die Messtechnik ist prozessnah integriert. Die Vernetzung unserer CNC-Maschinen ermöglicht flexible Kapazitätsplanung.",
   mach_cat_5ax:         "5-Achs-Bearbeitungszentren",
   mach_cat_3ax:         "3- / 4-Achs-Bearbeitungszentren",
   mach_cat_turn:        "CNC-Dreh- und Dreh-Fräszentren",
@@ -206,9 +206,10 @@ de: {
   mach_detail_spindle:  "Spindeldrehzahl",
   mach_detail_weight:   "max. Werkstückgewicht",
   mach_detail_notes:    "Besonderheiten",
+  mach_pdf_btn:         "Maschinenliste herunterladen",
   mach_cta_label:       "Anforderungen besprechen",
   mach_cta_title:       "Haben Sie spezielle Anforderungen an Material oder Geometrie?",
-  mach_cta_text:        "Sprechen Sie mit unserer technischen Leitung – wir prüfen Ihre Zeichnung und beraten Sie zur optimalen Fertigungsstrategie.",
+  mach_cta_text:        "Sprechen Sie mit unserer technischen Leitung. Wir prüfen Ihre Zeichnung und beraten Sie zur optimalen Fertigungsstrategie.",
   mach_cta_btn:         "Technische Anfrage stellen",
 
   /* ── KARRIERE PAGE ───────────────────────────────────────────── */
@@ -216,10 +217,10 @@ de: {
   kar_page_meta:        "Karriere bei Berghoff GmbH – Offene Stellen, Ausbildungsplätze und Berufseinstieg in der CNC-Präzisionsfertigung in Drolshagen und Wenden.",
   kar_hero_label:       "Karriere & Ausbildung",
   kar_hero_title:       "Werden Sie Teil des Berghoff-Teams",
-  kar_hero_sub:         "Wir suchen Fachkräfte und Nachwuchstalente, die handwerkliche Präzision mit technischem Anspruch verbinden. Inhabergeführt, kollegial, mit echter Entwicklungsperspektive.",
+  kar_hero_sub:         "Wir suchen Fachkräfte und Nachwuchstalente für die CNC-Präzisionsfertigung. Inhabergeführtes Unternehmen, kollegiales Umfeld, klare Entwicklungsperspektive.",
   kar_jobs_label:       "Offene Stellen",
   kar_jobs_title:       "Aktuelle Stellenangebote",
-  kar_jobs_text:        "Unsere aktuellen Stellenangebote finden Sie auf unserer externen Karriereplattform. Dort können Sie sich direkt bewerben – unkompliziert und ohne Anmeldung.",
+  kar_jobs_text:        "Unsere aktuellen Stellenangebote finden Sie auf unserer externen Karriereplattform. Bewerbung direkt möglich, ohne Anmeldung.",
   kar_jobs_btn:         "Alle Stellen ansehen",
   kar_jobs_note:        "Keine passende Stelle dabei? Wir freuen uns jederzeit über eine Initiativbewerbung an karriere@berghoff.eu",
   kar_ausb_label:       "Ausbildung",
@@ -247,12 +248,12 @@ de: {
   /* ── KARRIERE – KULTUR ───────────────────────────────────────── */
   kar_kultur_label:     "Unsere Kultur",
   kar_kultur_title:     "Wie es wirklich ist, bei uns zu arbeiten",
-  kar_kultur_intro:     "Kein Konzerngetriebe. Keine anonymen Abteilungen. Sondern ein Betrieb, in dem die Leute sich kennen – und füreinander einstehen.",
+  kar_kultur_intro:     "Kein Konzern. Keine anonymen Abteilungen. Ein Betrieb, in dem die Leute sich kennen und füreinander einstehen.",
   kar_kultur_text1:     "Das Unternehmen ist seit über 40 Jahren inhabergeführt. Ulrich und Markus Berghoff sind täglich im Betrieb, kennen die meisten Kollegen beim Vornamen und entscheiden auf kurzem Weg. Hier steckt kein Konzern dahinter, sondern eine Familie, die ihr Handwerk ernst nimmt.",
-  kar_kultur_text2:     "Die Hallen in Drolshagen und Wenden sind überschaubar genug, dass man sich tatsächlich kennt. Wenn an einer 5-Achs-Maschine etwas nicht stimmt, kommt der NC-Programmierer selbst vorbei – nicht erst nach drei Eskalationsstufen. Probleme werden direkt gelöst, nicht weitergereicht.",
+  kar_kultur_text2:     "Die Hallen in Drolshagen und Wenden sind überschaubar genug, dass man sich kennt. Wenn an einer 5-Achs-Maschine etwas nicht stimmt, kommt der NC-Programmierer selbst vorbei. Probleme werden direkt gelöst.",
   kar_kultur_text3:     "Wer neu anfängt, wird eingearbeitet, nicht allein gelassen. Azubis lernen an echten Maschinen, nicht nur in der Theorie. Wer Verantwortung übernehmen will, bekommt sie. Und wer sich wohlfühlt, bleibt – viele Kollegen sind seit zehn, zwanzig Jahren dabei.",
   kar_kultur_quote:     "„Ich hab nach der Ausbildung direkt übernommen und bin jetzt seit neun Jahren dabei. Die Atmosphäre ist anders als anderswo – man hilft sich, auch wenn's eigentlich nicht die eigene Aufgabe wäre.\"",
-  kar_kultur_quote_cite:"— Zerspanungsmechaniker, Standort Drolshagen",
+  kar_kultur_quote_cite:"Zerspanungsmechaniker, Standort Drolshagen",
   kar_moment1_cap:      "Team-Event – Escape Room",
   kar_moment2_cap:      "Gemeinsam in der Werkstatt",
   kar_moment3_cap:      "Zusammen, nicht nebeneinander",
@@ -291,7 +292,7 @@ de: {
   sup_hero_sub:         "Wir bauen unser Lieferantennetzwerk gezielt aus und suchen leistungsstarke Partner, die unsere Anforderungen an Qualität, Liefertreue und Technologie teilen.",
   sup_req_label:        "Anforderungen",
   sup_req_title:        "Was wir von Lieferanten erwarten",
-  sup_req_text:         "Als Fertigungspartner für sicherheitskritische Branchen stellen wir klare Anforderungen an unsere Lieferanten – in Qualität, Termintreue, Technologie und Kostenstruktur.",
+  sup_req_text:         "Als Fertigungspartner für sicherheitskritische Branchen stellen wir klare Anforderungen an unsere Lieferanten: Qualität, Termintreue, Technologie und Kostenstruktur.",
   sup_qltc_label:       "Unser QLTC-Kriterium",
   sup_qltc_q_title:     "Q – Qualität",
   sup_qltc_q_text:      "Zertifiziertes QMS nach ISO 9001 (Mindestanforderung). Für Aerospace-Teile: EN 9100. Vollständige Rückverfolgbarkeit und Prüfprotokolle.",
@@ -326,6 +327,307 @@ de: {
   team_role_sales:      "Leiter Vertrieb & Marketing",
   team_role_hr:         "Personalleitung",
   team_role_ausb:       "Ausbildungsleitung",
+
+  /* ── INDEX – Prozess ──────────────────────────────────────────── */
+  proc_label:      "Fertigungsprozess",
+  proc_headline:   "Von der Beschaffung bis zur Lieferung aus einer Hand",
+  proc_intro:      "Berghoff übernimmt die vollständige Wertschöpfungskette: vom Rohmaterial bis zum montierten, verpackten Bauteil. Weniger Schnittstellen, höhere Zuverlässigkeit, kürzere Durchlaufzeiten.",
+  proc_step1_title:"Materialbeschaffung",
+  proc_step1_text: "Beschaffung von Rohmaterial und Halbzeugen direkt aus qualifizierten Lieferketten. Nach Zeichnungsvorgabe, werkstoffgeprüft und lückenlos rückverfolgbar. Ein Ansprechpartner, kein Koordinationsaufwand für Sie.",
+  proc_step2_title:"Fertigung & Bearbeitung",
+  proc_step2_text: "CNC-Drehen, Fräsen, Schleifen und Messtechnik vollständig in unseren Werken in Drolshagen und Wenden. Komplexe Toleranzen, dokumentierte Prüfprotokolle, reproduzierbare Qualität.",
+  proc_step3_title:"Montage & Lieferung",
+  proc_step3_text: "Komplettmontage von Baugruppen bis Modulebene. Reinraumgerechte Verpackung nach Cleanliness-Klasse. Termingerecht, direkt an Ihren Standort oder in Ihre Fertigung.",
+  proc_trademark:  "Der <strong>3SVIP®</strong> (3-Step Vertical Integration Process) ist der systematische Ansatz, mit dem Berghoff die gesamte Fertigungskette intern koordiniert und steuert. Maximale Transparenz, minimale Risiken auf Ihrer Seite.",
+
+  /* ── INDEX – Photo strip ──────────────────────────────────────── */
+  strip_kicker:    "Berghoff GmbH · Drolshagen & Wenden",
+  strip_headline:  "<em>40+ Jahre</em> Präzisionsfertigung\nzwei Standorte, <em>eine Qualität</em>",
+  kon_hours_opening: "Mo – Fr · 07:00 – 16:00 Uhr",
+
+  /* ── MASCHINENPARK – facts ────────────────────────────────────── */
+  mach_fact_cnc:       "CNC-Maschinen",
+  mach_fact_simul:     "Simultanbearbeitung",
+  mach_fact_unmanned:  "Mannlose Fertigung",
+  mach_fact_cleanroom: "Reinraum ab 2026",
+
+  /* ── MASCHINENPARK – Spec labels ─────────────────────────────── */
+  mach_spec_travel:    "Verfahrweg",
+  mach_spec_rotary:    "Drehtisch",
+  mach_spec_nc_rotary: "NC-Rundtisch",
+  mach_spec_spindle:   "Spindel",
+  mach_spec_maxweight: "Max. Gewicht",
+  mach_spec_table:     "Tisch",
+  mach_spec_turn_dia:  "Drehdurchmesser",
+  mach_spec_turn_len:  "Drehlänge",
+  mach_spec_spin_tm:   "Spindel Drehen/Fräsen",
+  mach_spec_bar_dia:   "Stangendurchmesser",
+  mach_spec_feed:      "Zufuhr",
+  mach_spec_grind_rng: "Schleifbereich",
+  mach_spec_ctr_h:     "Spitzenhöhe",
+  mach_spec_surface:   "Oberflächengüte",
+  mach_spec_suit:      "Eignung",
+  mach_spec_bore:      "Innenbohrung",
+  mach_spec_toolchg:   "Werkzeugwechsel",
+  mach_spec_prec:      "Präzision",
+  mach_spec_table_s:   "Tischfläche",
+  mach_spec_form_acc:  "Formgenauigkeit",
+  mach_spec_guides:    "Führungen",
+  mach_spec_workspace: "Arbeitsraum",
+  mach_spec_wire_dia:  "Drahtdurchmesser",
+  mach_spec_accuracy:  "Genauigkeit",
+  mach_spec_generator: "Generator",
+
+  /* ── MASCHINENPARK – Spec values ─────────────────────────────── */
+  mach_val_unlimited:  "unbegrenzt (Stange)",
+  mach_val_auto:       "Automatisch",
+  mach_val_ext_int:    "Außen- & Innenrund",
+  mach_val_bore_suit:  "Innenprofile, Kegel",
+  mach_val_flat_suit:  "Planflächen, Führungen",
+  mach_val_cont_suit:  "Konturen, Formen",
+  mach_val_cav_suit:   "Formhohlräume, Hartmetall",
+  mach_val_very_high:  "Sehr hoch",
+  mach_val_highfreq:   "Hochfrequenz",
+
+  /* ── MASCHINENPARK – Machine types ───────────────────────────── */
+  mach_type_5ax:       "5-Achs simultan",
+  mach_type_5ax_port:  "5-Achs Portal simultan",
+  mach_type_3ax:       "3-Achs Vertikalzentrum",
+  mach_type_turn6:     "Dreh-Fräszentrum · 6-achsig",
+  mach_type_swiss:     "Langdrehmaschine · Swiss-type · 8-achsig",
+  mach_type_turn_uni:  "Universal-Drehzentrum",
+  mach_type_grind_uni: "CNC-Universalrundschleifen",
+  mach_type_grind_int: "CNC-Innenrundschleifen",
+  mach_type_grind_flt: "CNC-Flachschleifen",
+  mach_type_edm_wire:  "Drahterodieren",
+  mach_type_edm_sink:  "Senkerodieren · HSC",
+
+  /* ── MASCHINENPARK – Machine notes ───────────────────────────── */
+  mach_note_dmu50_1:   "Palettenwechsler, Werkzeugmagazin 30-fach",
+  mach_note_dmu50_2:   "Zweite Einheit – mannlose Fertigung",
+  mach_note_dmu70:     "Linearantriebe, hohe Dynamik",
+  mach_note_dmu85:     "Schwere Werkstücke, Großteilebearbeitung",
+  mach_note_c42:       "Portalbauweise, hohe Steifigkeit",
+  mach_note_c52:       "Größtes BAZ – Schwer- und Komplexteile",
+  mach_note_dmc635:    "Werkzeugmagazin 24-fach, Hochgenauigkeit",
+  mach_note_nexus:     "Hochdynamisch, Serienfertigung",
+  mach_note_vf6:       "Großtisch für Vorrichtungsaufbauten, Serienbetrieb",
+  mach_note_ctx_beta:  "Y-Achse, Gegenspindel – Fertigteil in einem Setup",
+  mach_note_ctx_gamma: "Schwere Drehteile mit Fräsoperationen",
+  mach_note_sprint:    "Schlanke Präzisionsdrehteile, automatische Stangenzufuhr",
+  mach_note_ctx400:    "Angetriebene Werkzeuge, C-Achse",
+  mach_note_s33:       "CNC-gesteuert, hohe Formgenauigkeit",
+  mach_note_s141:      "Automatischer Werkzeugwechsel, Innenprofile & Kegelflächen",
+  mach_note_elb:       "Hydrostatische Führungen, Formgenauigkeit < 2 µm",
+  mach_note_cutp:      "Konturschneiden, Stanzwerkzeuge, Formen",
+  mach_note_eagle:     "Feinst-Erodieren, Sondergeometrien",
+
+  /* ── MASCHINENPARK – Messtechnik ─────────────────────────────── */
+  mach_meas_badge_cmm:   "CMM",
+  mach_meas_badge_inproc:"In-process",
+  mach_meas_badge_rough: "Rauheit",
+  mach_meas_badge_other: "Optisch",
+  mach_meas4_title:      "Weitere Messtechnik",
+  mach_meas1_items: [
+    "Koordinatenmessmaschine (KMM), 3-D-Scanning",
+    "Messvolumen: 700 × 1.000 × 600 mm",
+    "Messgenauigkeit: 1,4 + L/300 µm",
+    "RDS-Gelenktastkopf, 720 Positionen",
+    "Klimatisierter Messraum, 20 °C ± 0,5 K",
+    "Erstmusterprüfberichte (EMPB) nach VDA"
+  ],
+  mach_meas2_items: [
+    "Vergleichsmessstation, prozessnah an der Maschine",
+    "Messbereich Ø 300 mm, Höhe 150 mm",
+    "Temperaturkompensiert, für Serienmessung geeignet",
+    "Integration in Fertigungsablauf und CAQ-System",
+    "Rückmeldung an CNC-Steuerung möglich"
+  ],
+  mach_meas3_items: [
+    "Taktiles Rauheitsmessgerät nach DIN EN ISO 4287",
+    "Messkenngrößen Ra, Rz, Rmax, Rq u.v.m.",
+    "Messbereich: Ra 0,005 – 40 µm",
+    "Protokolldruck und digitale Archivierung",
+    "Kalibrierung nach DAkkS-Norm"
+  ],
+  mach_meas4_items: [
+    "Handmessmittel: Bügelmessschrauben, Rachenlehren",
+    "Bohrungsmessgeräte (Feinzeiger, Innenmesstaster)",
+    "Optische Messlupe und Stereomikroskop",
+    "Formenlehren und Grenzlehrdorne",
+    "Kalibrierungsnachweise für alle Messmittel"
+  ],
+
+  /* ── MASCHINENPARK – Reinraum card ───────────────────────────── */
+  mach_clean_badge:    "NEU AB 2026",
+  mach_clean_title:    "Reinraum ISO Klasse 6 – Montage, Reinigung & Qualifizierung",
+  mach_clean_text:     "Ab Frühjahr 2026 erweitern wir unsere Kapazitäten um einen klimatisierten Reinraum nach ISO Klasse 6. Dies ermöglicht uns die reinraumgerechte Montage komplexer Baugruppen, Reinigung nach Kundenvorgabe sowie die Qualifizierung sicherheitskritischer Teile für Halbleiter- und Medizintechnik.",
+  mach_clean_f1_title: "Ultraschallreinigung",
+  mach_clean_f1_sub:   "Nassreinigung für metallische Komponenten",
+  mach_clean_f2_title: "Vakuumentgasung (Bake-Out)",
+  mach_clean_f2_sub:   "Entfernung von Restgasen und Feuchte",
+  mach_clean_f3_title: "Heliumlecktest",
+  mach_clean_f3_sub:   "Dichtigkeitsprüfung nach Kundenvorgabe",
+  mach_clean_f4_title: "Restgasanalyse",
+  mach_clean_f4_sub:   "Qualifizierung gemäß Prozessspezifikation",
+  mach_clean_f5_title: "Reinraumverpackung",
+  mach_clean_f5_sub:   "Verpackung nach Cleanliness-Klasse",
+  mach_clean_f6_title: "Reinraumgerechte Montage",
+  mach_clean_f6_sub:   "Baugruppen bis Modulebene",
+
+  /* ── KARRIERE – Contact roles ────────────────────────────────── */
+  kar_contact_role_hr:    "Personalleitung",
+  kar_contact_scope_hr:   "Stellenangebote, Bewerbungen, Arbeitsverträge",
+  kar_contact_role_ausb:  "Ausbildungsleitung",
+  kar_contact_scope_ausb: "Ausbildungsplätze, Schnuppertage, Ausbildungsverlauf",
+
+  /* ── KARRIERE – Hero badges ───────────────────────────────────── */
+  kar_badge_family:    "Inhabergeführtes Familienunternehmen",
+  kar_badge_retention: "95 % Übernahmequote nach Ausbildung",
+  kar_badge_vacation:  "30 Urlaubstage",
+
+  /* ── KARRIERE – Jobs ──────────────────────────────────────────── */
+  kar_tag_fulltime:   "Vollzeit",
+  kar_asap:           "Ab sofort",
+  kar_soon:           "Zum nächstmöglichen Termin",
+  kar_btn_apply:      "Bewerben",
+
+  kar_job1_title: "CNC-Fräser / Zerspanungsmechaniker (m/w/d)",
+  kar_job1_desc:  "Einrichtung und Bedienung moderner 5-Achs-CNC-Bearbeitungszentren. Fertigung komplexer Präzisionsteile nach technischer Zeichnung für anspruchsvolle Industriekunden.",
+  kar_job1_skills:["5-Achs-Fräsen", "CNC-Steuerung (Siemens/Heidenhain)", "Qualitätsprüfung", "Einzelteil- und Serienfertigung"],
+
+  kar_job2_title: "CNC-Dreher / Zerspanungsmechaniker Drehen (m/w/d)",
+  kar_job2_desc:  "Selbstständige Bearbeitung von Drehteilen und Dreh-Fräskombinationen auf modernen CNC-Dreh-Fräszentren. Einrichten, Bedienen und Überwachen der Fertigung.",
+  kar_job2_skills:["CNC-Drehen", "Dreh-Fräsen", "Messtechnik", "Siemens 840D"],
+
+  kar_job3_title: "Arbeitsvorbereiter / NC-Programmierer (m/w/d)",
+  kar_job3_desc:  "NC-Programmierung komplexer Bauteile mit CAM-Systemen (Hypermill, Siemens NX oder Mastercam). Erstellung von Arbeitsplänen und Fertigungsunterlagen für die Werkstatt.",
+  kar_job3_skills:["CAM-Programmierung", "5-Achs-Strategien", "Hypermill / NX", "Arbeitsvorbereitung"],
+
+  kar_job4_title: "Mitarbeiter Qualitätssicherung / Messtechnik (m/w/d)",
+  kar_job4_desc:  "Dimensionale Prüfung von Präzisionsbauteilen mit KMM (Zeiss Contura), Renishaw Equator und konventionellen Messmitteln. Erstellung von Prüfprotokollen und Erstmusterprüfberichten.",
+  kar_job4_skills:["KMM / Zeiss", "EMPB nach VDA", "ISO 9001", "Prüfplanung"],
+
+  /* ── KARRIERE – Ausbildung ────────────────────────────────────── */
+  kar_ausb_badge_start2026: "Start 2026",
+  kar_ausb_badge_soon:      "Demnächst",
+  kar_ausb_btn_apply:       "Jetzt bewerben",
+  kar_ausb_btn_interest:    "Interesse bekunden",
+
+  kar_ausb1_title: "Zerspanungsmechaniker/in",
+  kar_ausb1_text:  "Einrichten und Bedienen von CNC-Maschinen zur Herstellung komplexer Präzisionsteile. Mit ca. 6 Monaten Einsatz bei unserem Ausbildungspartner EMG in Wenden-Hillmicke.",
+
+  kar_ausb2_title: "Industriemechaniker/in",
+  kar_ausb2_text:  "Montage, Instandhaltung und Optimierung von Maschinen und Fertigungsanlagen. Einsatz zu gleichen Teilen an beiden Standorten Drolshagen und Wenden.",
+
+  kar_ausb3_title: "Fachkraft für Lagerlogistik",
+  kar_ausb3_text:  "Warenannahme, Lagerhaltung, Kommissionierung und Versandvorbereitung. Umgang mit Lagersteuerungssystemen und Koordination des Materialflusses.",
+
+  kar_ausb4_title: "Industriekaufmann/frau",
+  kar_ausb4_text:  "Kaufmännische Prozesse in allen Abteilungen: Einkauf, Finanzbuchhaltung, Personal, Vertrieb, Logistik. Fundierter Einblick in das gesamte Unternehmen.",
+
+  /* ── KARRIERE – Benefits ──────────────────────────────────────── */
+  kar_ben1_title: "iPad zum Ausbildungsstart",
+  kar_ben1_text:  "Jeder Auszubildende erhält zum Start ein iPad für digitale Lernunterlagen und moderne Ausbildungsbegleitung.",
+  kar_ben2_title: "30 Urlaubstage",
+  kar_ben2_text:  "Bereits als Auszubildender stehen Ihnen 30 Urlaubstage pro Kalenderjahr zur Verfügung – auch kurzfristig planbar.",
+  kar_ben3_title: "Lehrmittel inklusive",
+  kar_ben3_text:  "Kosten für Fachbücher, Lernmittel und Arbeitsmaterial werden vollständig vom Unternehmen übernommen.",
+  kar_ben4_title: "Vermögenswirksame Leistungen",
+  kar_ben4_text:  "Wir bezuschussen einen VL-Vertrag und unterstützen Sie beim Aufbau einer betrieblichen Altersvorsorge.",
+  kar_ben5_title: "Erasmus-Austausch",
+  kar_ben5_text:  "Internationale Erfahrung durch das Erasmus-Programm – z. B. ein Praktikum im europäischen Ausland (Erfahrung: Finnland).",
+  kar_ben6_title: "Moderner Maschinenpark",
+  kar_ben6_text:  "Ausbildung an modernsten CNC-Maschinen führender Hersteller – Sie lernen praxisnah auf Geräten, die auch in der Produktion eingesetzt werden.",
+  kar_ben7_title: "Verkürzung möglich",
+  kar_ben7_text:  "Bei sehr guten Leistungen ist eine Verkürzung der Ausbildungszeit um bis zu 6 Monate möglich.",
+  kar_ben8_title: "95 % Übernahmequote",
+  kar_ben8_text:  "Nach erfolgreichem Abschluss werden fast alle Auszubildenden in ein festes Arbeitsverhältnis übernommen.",
+  kar_ben9_title: "Team & Events",
+  kar_ben9_text:  "Regelmäßige Teamevents: Lasertag, Klettern, Skifahren, Wandern, Freizeitparks, Escape Rooms und mehr.",
+
+  /* ── KARRIERE – Bewerbungsprozess ────────────────────────────── */
+  kar_apply_label:       "Bewerbung",
+  kar_apply_title:       "So einfach bewerben Sie sich",
+  kar_apply_intro:       "Der gesamte Prozess dauert von der Einreichung bis zur Rückmeldung in der Regel nicht länger als zwei Wochen.",
+  kar_apply_step1_title: "Unterlagen einreichen",
+  kar_apply_step1_text:  "Anschreiben, Lebenslauf und letzte zwei Schulzeugnisse – online in unter einer Minute.",
+  kar_apply_step2_title: "Einladung",
+  kar_apply_step2_text:  "Bei Eignung erhalten Sie zeitnah eine Einladung zum persönlichen Gespräch.",
+  kar_apply_step3_title: "Kennenlernen",
+  kar_apply_step3_text:  "Persönliches Gespräch – optional mit Schnuppertag oder Arbeitsprobentest.",
+  kar_apply_step4_title: "Vertragsabschluss",
+  kar_apply_step4_text:  "Wir freuen uns auf Ihren Start bei Berghoff. Herzlich willkommen!",
+  kar_apply_requirements:"Schulabschluss: Für kaufmännische und technische Berufe mindestens Realschulabschluss; für Logistik guter Hauptschulabschluss.",
+  kar_apply_btn:         "Jetzt online bewerben",
+  kar_apply_esf:         "Unsere Ausbildungsmaßnahmen werden gefördert durch den Europäischen Sozialfonds (ESF) und das Ministerium für Arbeit, Gesundheit und Soziales des Landes Nordrhein-Westfalen.",
+
+  /* ── KARRIERE – Social ────────────────────────────────────────── */
+  kar_social_label: "Einblicke in unseren Arbeitsalltag",
+
+  /* ── LIEFERANT – Stat labels ──────────────────────────────────── */
+  sup_stat_minreq:     "Mindestanforderung",
+  sup_stat_criteria:   "Bewertungskriterien",
+  sup_stat_traceability:"Rückverfolgbarkeit",
+
+  /* ── LIEFERANT – QLTC lists ───────────────────────────────────── */
+  sup_qltc_q_list: ["ISO 9001:2015 (Pflicht)", "EN 9100 für Aerospace-Teile", "Vollständige Prüfprotokolle", "Materialzertifikate nach EN 10204", "Interne Erstprüfung vor Lieferung"],
+  sup_qltc_l_list: ["Termintreue als messbare KPI", "Verbindliche Auftragsbestätigung", "Frühzeitige Kommunikation bei Abweichungen", "JIT-Fähigkeit bei Bedarf", "Flexible Losgrößen"],
+  sup_qltc_t_list: ["Stand der Technik in Fertigungsverfahren", "Eigene Messtechnik / Qualitätsprüfung", "Bereitschaft zur Prozessverbesserung", "Zertifizierungserweiterung auf Anfrage", "Technische Beratungsfähigkeit"],
+  sup_qltc_c_list: ["Wettbewerbsfähiges Preis-Leistungs-Verhältnis", "Transparente Kalkulationsgrundlage", "Bereitschaft zu Kostenoptimierungsprogrammen", "Volumenvereinbarungen möglich", "Stabile Preisentwicklung"],
+
+  /* ── LIEFERANT – Cert-req cards ───────────────────────────────── */
+  sup_cert_required:    "Pflicht",
+  sup_cert_conditional: "Je nach Branche",
+  sup_cert_recommended: "Empfohlen",
+  sup_cert_beneficial:  "Vorteilhaft",
+
+  sup_cert1_desc: "Qualitätsmanagementsystem – Anforderungen. Gültiges Zertifikat einer akkreditierten Zertifizierungsstelle erforderlich.",
+  sup_cert2_desc: "Luft- und Raumfahrt-Qualitätsmanagementsystem. Erforderlich für alle Lieferanten, die Aerospace-Teile für Berghoff fertigen.",
+  sup_cert3_desc: "Umweltmanagementsystem. Als Alternative oder Ergänzung zur EN 9100 – zeigt Engagement für nachhaltige Unternehmensführung.",
+  sup_cert4_desc: "Qualitätsstandard Automobilindustrie. Nicht zwingend, aber als Nachweis einer belastbaren QMS-Kultur positiv bewertet.",
+  sup_cert5_desc: "Zerstörungsfreie Prüfung – Qualifizierung und Zertifizierung von ZfP-Personal. Relevant für Lieferanten sicherheitskritischer Bauteile in Aerospace und Medizintechnik.",
+
+  /* ── LIEFERANT – Process steps ────────────────────────────────── */
+  sup_step1_title: "Kontaktaufnahme",
+  sup_step1_text:  "Sie nehmen Kontakt auf – per E-Mail, Telefon oder über das Kontaktformular auf dieser Seite.",
+  sup_step2_title: "Selbstauskunft",
+  sup_step2_text:  "Ausfüllen unseres Lieferanten-Selbstauskunftsfragebogens mit Angaben zu Zertifizierungen, Kapazitäten und Kernkompetenzen.",
+  sup_step3_title: "Prüfung & Audit",
+  sup_step3_text:  "Wir prüfen Ihre Unterlagen. Bei positivem Ergebnis folgt ggf. ein Lieferantenaudit vor Ort oder per Remote.",
+  sup_step4_title: "Freigabe",
+  sup_step4_text:  "Nach erfolgreicher Qualifikation nehmen wir Sie in unsere Lieferantendatenbank auf und besprechen erste Projekte.",
+
+  /* ── LIEFERANT – Selbstauskunft ───────────────────────────────── */
+  sup_self_label: "Online-Fragebogen",
+  sup_self_title: "Lieferantenselbstauskunft",
+  sup_self_text:  "Die Lieferantenselbstauskunft als Fragebogen ist eine bewährte Methode zur systematischen Informationsgewinnung zu Lieferanten und deren Leistungspotenzialen. Ebenfalls dient sie zur Qualifizierung neuer Lieferanten.",
+  sup_self_btn:   "Lieferantenselbstauskunft ausfüllen",
+
+  /* ── LIEFERANT – Dokumente ────────────────────────────────────── */
+  sup_doc1_title: "Lieferantenselbstauskunft",
+  sup_doc1_desc:  "Online-Fragebogen zur Erfassung Ihrer Unternehmens- und Qualifikationsdaten. Basis für die Lieferantenqualifizierung.",
+  sup_doc1_link:  "Online-Fragebogen öffnen",
+  sup_doc2_title: "Allgemeine Einkaufsbedingungen",
+  sup_doc2_desc:  "Unsere allgemeinen Einkaufsbedingungen (AEB) – rechtliche Grundlage für alle Lieferantenbeziehungen.",
+  sup_doc2_link:  "Herunterladen (PDF)",
+  sup_doc3_title: "Qualitätssicherungsvereinbarung (QSV)",
+  sup_doc3_desc:  "Detaillierte Anforderungen an Qualität, Prüfung, Dokumentation und Lieferbedingungen für unsere Lieferanten.",
+  sup_doc3_link:  "Herunterladen (PDF)",
+
+  /* ── LIEFERANT – Contact & Form ───────────────────────────────── */
+  sup_contact_phone_label: "Telefon Einkauf",
+  sup_contact_email_label: "E-Mail Lieferanten",
+  sup_form_company:        "Unternehmen *",
+  sup_form_contact:        "Ansprechpartner *",
+  sup_form_certs_label:    "Vorliegende Zertifizierungen",
+  sup_form_competence:     "Kernkompetenzen / Fertigungsverfahren",
+  sup_form_competence_ph:  "z.B. CNC-Drehen, Oberflächentechnik, Schweißen ...",
+  sup_form_desc_label:     "Kurzbeschreibung Ihres Unternehmens",
+  sup_form_desc_ph:        "Bitte beschreiben Sie kurz Ihr Leistungsspektrum, Ihre Kapazitäten und warum eine Zusammenarbeit mit Berghoff für Sie interessant ist.",
+  sup_form_privacy:        "Ich habe die Datenschutzerklärung gelesen und stimme der Verarbeitung meiner Daten zu. *",
+  sup_form_submit:         "Anfrage absenden",
+  sup_form_success:        "Vielen Dank für Ihr Interesse! Unser Einkaufsteam meldet sich innerhalb weniger Werktage bei Ihnen.",
 },
 
 /* ══════════════════════════════════════════════════════════════
@@ -510,19 +812,7 @@ en: {
   team_label:         "Contact Persons",
   team_headline:      "Your Contacts at Berghoff",
   team_intro:         "Reach the right person directly — by phone or email.",
-  team_grp_management:"Management",
-  team_grp_leads:     "Department Heads",
-  team_role_gf:       "Managing Director",
-  team_role_tech:     "Technical Director",
-  team_role_qm:       "Head of QM / IT",
-  team_role_sales:    "Sales & Marketing Director",
-  team_role_hr:       "HR Manager",
-  team_role_ausb:     "Apprenticeship Manager",
-
-  /* ── Team / Contacts ─────────────────────────────────────────── */
-  team_label:         "Contact Persons",
-  team_headline:      "Your Contacts at Berghoff",
-  team_intro:         "Reach the right person directly — by phone or email.",
+  team_grp_zentrale:  "Head Office",
   team_grp_management:"Management",
   team_grp_leads:     "Department Heads",
   team_role_gf:       "Managing Director",
@@ -581,6 +871,16 @@ en: {
   kar_benefits_title:   "Your Benefits at Berghoff",
   kar_contact_label:    "Contact",
   kar_contact_title:    "Your Contacts for Applications",
+
+  /* ── KARRIERE – VIDEO ────────────────────────────────────────── */
+  kar_video_label:      "Behind the Scenes",
+  kar_video_title:      "Apprenticeship at Berghoff – experience it live",
+  kar_video_intro:      "Our film shows what apprenticeship really looks like here: real machines, real tasks, real people. No studio, no actors.",
+  kar_video_placeholder_title: "Apprenticeship at Berghoff",
+  kar_video_placeholder_sub:   "Video coming soon",
+
+  /* ── KARRIERE – INSTAGRAM ────────────────────────────────────── */
+  kar_insta_tagline:    "Glimpses of everyday life, team events and apprenticeships at Berghoff.",
 
   /* ── KARRIERE – KULTUR ───────────────────────────────────────── */
   kar_kultur_label:     "Our Culture",
@@ -650,5 +950,306 @@ en: {
   sup_contact_text:     "For questions on supplier qualification or the onboarding process, contact our purchasing team directly.",
   sup_form_label:       "Contact Form",
   sup_form_title:       "Supplier Interest",
+
+  /* ── INDEX – Prozess ──────────────────────────────────────────── */
+  proc_label:      "Manufacturing Process",
+  proc_headline:   "From procurement to delivery — all from a single source",
+  proc_intro:      "Fewer interfaces. Higher reliability. Shorter lead times. Berghoff manages the entire value chain — from raw material to assembled, packaged component.",
+  proc_step1_title:"Material Procurement",
+  proc_step1_text: "Sourcing of raw materials and semi-finished goods directly from qualified supply chains — to drawing specification, material-tested and fully traceable. One point of contact, no coordination overhead for you.",
+  proc_step2_title:"Manufacturing & Machining",
+  proc_step2_text: "CNC turning, milling, grinding and metrology — all in-house at our plants in Drolshagen and Wenden. Complex tolerances, documented inspection records, reproducible quality.",
+  proc_step3_title:"Assembly & Delivery",
+  proc_step3_text: "Complete assembly up to module level, cleanroom-compliant packaging to cleanliness class — on time, delivered directly to your site or production line.",
+  proc_trademark:  "The <strong>3SVIP®</strong> (3-Step Vertical Integration Process) is the systematic approach with which Berghoff coordinates and manages the entire manufacturing chain in-house — for maximum transparency and minimum risk on your side.",
+
+  /* ── INDEX – Photo strip ──────────────────────────────────────── */
+  strip_kicker:    "Berghoff GmbH · Drolshagen & Wenden",
+  strip_headline:  "<em>40+ years</em> of precision manufacturing —\ntwo sites, <em>one quality standard</em>",
+  kon_hours_opening: "Mon – Fri · 07:00 – 16:00 (CET)",
+
+  /* ── MASCHINENPARK – facts ────────────────────────────────────── */
+  mach_fact_cnc:       "CNC machines",
+  mach_fact_simul:     "Simultaneous machining",
+  mach_fact_unmanned:  "Unmanned Production",
+  mach_fact_cleanroom: "Cleanroom from 2026",
+
+  /* ── MASCHINENPARK – Spec labels ─────────────────────────────── */
+  mach_spec_travel:    "Travel",
+  mach_spec_rotary:    "Rotary table",
+  mach_spec_nc_rotary: "NC rotary table",
+  mach_spec_spindle:   "Spindle",
+  mach_spec_maxweight: "Max. weight",
+  mach_spec_table:     "Table",
+  mach_spec_turn_dia:  "Turning diameter",
+  mach_spec_turn_len:  "Turning length",
+  mach_spec_spin_tm:   "Turning/milling spindle",
+  mach_spec_bar_dia:   "Bar diameter",
+  mach_spec_feed:      "Feed",
+  mach_spec_grind_rng: "Grinding range",
+  mach_spec_ctr_h:     "Centre height",
+  mach_spec_surface:   "Surface finish",
+  mach_spec_suit:      "Suitability",
+  mach_spec_bore:      "Inner bore",
+  mach_spec_toolchg:   "Tool change",
+  mach_spec_prec:      "Precision",
+  mach_spec_table_s:   "Table surface",
+  mach_spec_form_acc:  "Form accuracy",
+  mach_spec_guides:    "Guides",
+  mach_spec_workspace: "Working area",
+  mach_spec_wire_dia:  "Wire diameter",
+  mach_spec_accuracy:  "Accuracy",
+  mach_spec_generator: "Generator",
+
+  /* ── MASCHINENPARK – Spec values ─────────────────────────────── */
+  mach_val_unlimited:  "unlimited (bar)",
+  mach_val_auto:       "Automatic",
+  mach_val_ext_int:    "External & internal",
+  mach_val_bore_suit:  "Internal profiles, tapers",
+  mach_val_flat_suit:  "Flat surfaces, guides",
+  mach_val_cont_suit:  "Contours, moulds",
+  mach_val_cav_suit:   "Die cavities, carbide",
+  mach_val_very_high:  "Very high",
+  mach_val_highfreq:   "High-frequency",
+
+  /* ── MASCHINENPARK – Machine types ───────────────────────────── */
+  mach_type_5ax:       "5-axis simultaneous",
+  mach_type_5ax_port:  "5-axis gantry simultaneous",
+  mach_type_3ax:       "3-axis vertical machining centre",
+  mach_type_turn6:     "Turn-mill centre · 6-axis",
+  mach_type_swiss:     "Swiss-type lathe · 8-axis",
+  mach_type_turn_uni:  "Universal turning centre",
+  mach_type_grind_uni: "CNC universal cylindrical grinding",
+  mach_type_grind_int: "CNC internal cylindrical grinding",
+  mach_type_grind_flt: "CNC surface grinding",
+  mach_type_edm_wire:  "Wire EDM",
+  mach_type_edm_sink:  "Die-sinking EDM · HSC",
+
+  /* ── MASCHINENPARK – Machine notes ───────────────────────────── */
+  mach_note_dmu50_1:   "Pallet changer, 30-tool magazine",
+  mach_note_dmu50_2:   "Second unit – unmanned production",
+  mach_note_dmu70:     "Linear drives, high dynamics",
+  mach_note_dmu85:     "Heavy workpieces, large-part machining",
+  mach_note_c42:       "Gantry design, high rigidity",
+  mach_note_c52:       "Largest MC – heavy and complex parts",
+  mach_note_dmc635:    "24-tool magazine, high precision",
+  mach_note_nexus:     "High-dynamic, series production",
+  mach_note_vf6:       "Large table for fixture setups, series operation",
+  mach_note_ctx_beta:  "Y-axis, counter spindle – finished part in one setup",
+  mach_note_ctx_gamma: "Heavy turned parts with milling operations",
+  mach_note_sprint:    "Slender precision turned parts, automatic bar feed",
+  mach_note_ctx400:    "Driven tools, C-axis",
+  mach_note_s33:       "CNC-controlled, high form accuracy",
+  mach_note_s141:      "Automatic tool change, internal profiles & tapered surfaces",
+  mach_note_elb:       "Hydrostatic guides, form accuracy < 2 µm",
+  mach_note_cutp:      "Contour cutting, stamping tools, moulds",
+  mach_note_eagle:     "Fine EDM, special geometries",
+
+  /* ── MASCHINENPARK – Metrology ───────────────────────────────── */
+  mach_meas_badge_cmm:   "CMM",
+  mach_meas_badge_inproc:"In-process",
+  mach_meas_badge_rough: "Surface roughness",
+  mach_meas_badge_other: "Optical",
+  mach_meas4_title:      "Additional measuring equipment",
+  mach_meas1_items: [
+    "Coordinate measuring machine (CMM), 3D scanning",
+    "Measuring volume: 700 × 1,000 × 600 mm",
+    "Measuring accuracy: 1.4 + L/300 µm",
+    "RDS articulating probe head, 720 positions",
+    "Air-conditioned measuring room, 20 °C ± 0.5 K",
+    "First article inspection reports (FAIR) to VDA"
+  ],
+  mach_meas2_items: [
+    "Comparative gauge, integrated close to the machine",
+    "Measuring range Ø 300 mm, height 150 mm",
+    "Temperature-compensated, suitable for series measurement",
+    "Integration into production workflow and CAQ system",
+    "Feedback to CNC controller possible"
+  ],
+  mach_meas3_items: [
+    "Tactile surface roughness instrument to DIN EN ISO 4287",
+    "Parameters Ra, Rz, Rmax, Rq and more",
+    "Measuring range: Ra 0.005 – 40 µm",
+    "Protocol printout and digital archiving",
+    "Calibrated to DAkkS standard"
+  ],
+  mach_meas4_items: [
+    "Hand measuring tools: micrometers, snap gauges",
+    "Bore measuring instruments (dial bore gauges, internal probes)",
+    "Optical measuring loupe and stereo microscope",
+    "Profile gauges and limit plug gauges",
+    "Calibration certificates for all measuring equipment"
+  ],
+
+  /* ── MASCHINENPARK – Cleanroom card ──────────────────────────── */
+  mach_clean_badge:    "NEW FROM 2026",
+  mach_clean_title:    "Cleanroom ISO Class 6 – Assembly, Cleaning & Qualification",
+  mach_clean_text:     "From spring 2026 we are expanding our capacity with an air-conditioned cleanroom to ISO Class 6. This enables us to perform cleanroom-compliant assembly of complex assemblies, cleaning to customer specification and qualification of safety-critical parts for semiconductor and medical technology.",
+  mach_clean_f1_title: "Ultrasonic cleaning",
+  mach_clean_f1_sub:   "Wet cleaning for metallic components",
+  mach_clean_f2_title: "Vacuum degassing (bake-out)",
+  mach_clean_f2_sub:   "Removal of residual gases and moisture",
+  mach_clean_f3_title: "Helium leak test",
+  mach_clean_f3_sub:   "Leak test to customer specification",
+  mach_clean_f4_title: "Residual gas analysis",
+  mach_clean_f4_sub:   "Qualification to process specification",
+  mach_clean_f5_title: "Cleanroom packaging",
+  mach_clean_f5_sub:   "Packaging to cleanliness class",
+  mach_clean_f6_title: "Cleanroom-compliant assembly",
+  mach_clean_f6_sub:   "Assemblies up to module level",
+
+  /* ── KARRIERE – Contact roles ────────────────────────────────── */
+  kar_contact_role_hr:    "Head of HR",
+  kar_contact_scope_hr:   "Job offers, applications, employment contracts",
+  kar_contact_role_ausb:  "Head of Apprenticeships",
+  kar_contact_scope_ausb: "Apprenticeship positions, taster days, apprenticeship progress",
+
+  /* ── KARRIERE – Hero badges ───────────────────────────────────── */
+  kar_badge_family:    "Owner-managed family business",
+  kar_badge_retention: "95% apprentice retention rate",
+  kar_badge_vacation:  "30 days annual leave",
+
+  /* ── KARRIERE – Jobs ──────────────────────────────────────────── */
+  kar_tag_fulltime:   "Full-time",
+  kar_asap:           "Immediate start",
+  kar_soon:           "As soon as possible",
+  kar_btn_apply:      "Apply",
+
+  kar_job1_title: "CNC Milling Operator / Machinist (m/f/d)",
+  kar_job1_desc:  "Setting up and operating modern 5-axis CNC machining centres. Manufacturing complex precision parts to technical drawings for demanding industrial customers.",
+  kar_job1_skills:["5-axis milling", "CNC control (Siemens/Heidenhain)", "Quality inspection", "Single-part & series production"],
+
+  kar_job2_title: "CNC Turner / Machinist – Turning (m/f/d)",
+  kar_job2_desc:  "Independent machining of turned parts and turn-mill combinations on modern CNC turn-mill centres. Setting up, operating and monitoring production.",
+  kar_job2_skills:["CNC turning", "Turn-milling", "Metrology", "Siemens 840D"],
+
+  kar_job3_title: "Production Planner / NC Programmer (m/f/d)",
+  kar_job3_desc:  "NC programming of complex components using CAM systems (Hypermill, Siemens NX or Mastercam). Creating work plans and production documents for the shop floor.",
+  kar_job3_skills:["CAM programming", "5-axis strategies", "Hypermill / NX", "Production planning"],
+
+  kar_job4_title: "Quality Assurance / Metrology Technician (m/f/d)",
+  kar_job4_desc:  "Dimensional inspection of precision components using CMM (Zeiss Contura), Renishaw Equator and conventional measuring instruments. Creating inspection records and first article inspection reports.",
+  kar_job4_skills:["CMM / Zeiss", "FAIR to VDA", "ISO 9001", "Inspection planning"],
+
+  /* ── KARRIERE – Ausbildung ────────────────────────────────────── */
+  kar_ausb_badge_start2026: "Starting 2026",
+  kar_ausb_badge_soon:      "Coming Soon",
+  kar_ausb_btn_apply:       "Apply now",
+  kar_ausb_btn_interest:    "Express interest",
+
+  kar_ausb1_title: "CNC Machinist (m/f/d)",
+  kar_ausb1_text:  "Setting up and operating CNC machines to manufacture complex precision parts. Includes approx. 6 months at our training partner EMG in Wenden-Hillmicke.",
+
+  kar_ausb2_title: "Industrial Mechanic (m/f/d)",
+  kar_ausb2_text:  "Assembly, maintenance and optimisation of machines and production equipment. Deployed equally at both sites in Drolshagen and Wenden.",
+
+  kar_ausb3_title: "Warehouse Logistics Specialist (m/f/d)",
+  kar_ausb3_text:  "Goods receipt, warehousing, order picking and shipping preparation. Working with warehouse management systems and coordinating material flow.",
+
+  kar_ausb4_title: "Industrial Management Assistant (m/f/d)",
+  kar_ausb4_text:  "Commercial processes across all departments: purchasing, accounting, HR, sales, logistics. A comprehensive insight into the whole company.",
+
+  /* ── KARRIERE – Benefits ──────────────────────────────────────── */
+  kar_ben1_title: "iPad at the start of your apprenticeship",
+  kar_ben1_text:  "Every apprentice receives an iPad at the start for digital learning materials and modern training support.",
+  kar_ben2_title: "30 days annual leave",
+  kar_ben2_text:  "Even as an apprentice you get 30 days of annual leave per calendar year — flexible to plan at short notice.",
+  kar_ben3_title: "Learning materials included",
+  kar_ben3_text:  "Costs for textbooks, learning materials and work supplies are covered entirely by the company.",
+  kar_ben4_title: "Capital-forming benefits",
+  kar_ben4_text:  "We contribute to a capital-forming savings plan and support you in building company pension provision.",
+  kar_ben5_title: "Erasmus exchange",
+  kar_ben5_text:  "International experience through the Erasmus programme — e.g. a placement abroad in Europe (past experience: Finland).",
+  kar_ben6_title: "Modern machine park",
+  kar_ben6_text:  "Training on the latest CNC machines from leading manufacturers — you learn hands-on with the same equipment used in production.",
+  kar_ben7_title: "Early completion possible",
+  kar_ben7_text:  "With very good performance, it is possible to shorten the apprenticeship by up to 6 months.",
+  kar_ben8_title: "95% retention rate",
+  kar_ben8_text:  "After successful completion, almost all apprentices are offered a permanent position.",
+  kar_ben9_title: "Team & Events",
+  kar_ben9_text:  "Regular team events: laser tag, climbing, skiing, hiking, theme parks, escape rooms and more.",
+
+  /* ── KARRIERE – Bewerbungsprozess ────────────────────────────── */
+  kar_apply_label:       "Application",
+  kar_apply_title:       "Applying is this simple",
+  kar_apply_intro:       "The entire process from submission to feedback typically takes no longer than two weeks.",
+  kar_apply_step1_title: "Submit your documents",
+  kar_apply_step1_text:  "Cover letter, CV and your last two school reports — online in under a minute.",
+  kar_apply_step2_title: "Invitation",
+  kar_apply_step2_text:  "If your profile fits, you will receive an invitation to a personal interview promptly.",
+  kar_apply_step3_title: "Getting to know each other",
+  kar_apply_step3_text:  "Personal interview — optionally with a taster day or skills test.",
+  kar_apply_step4_title: "Contract signing",
+  kar_apply_step4_text:  "We look forward to welcoming you to Berghoff. Welcome aboard!",
+  kar_apply_requirements:"School qualifications: For commercial and technical apprenticeships at least Realschulabschluss; for logistics a solid Hauptschulabschluss.",
+  kar_apply_btn:         "Apply online now",
+  kar_apply_esf:         "Our apprenticeship programmes are funded by the European Social Fund (ESF) and the Ministry of Labour, Health and Social Affairs of the State of North Rhine-Westphalia.",
+
+  /* ── KARRIERE – Social ────────────────────────────────────────── */
+  kar_social_label: "A glimpse into our working life",
+
+  /* ── LIEFERANT – Stat labels ──────────────────────────────────── */
+  sup_stat_minreq:     "Minimum requirement",
+  sup_stat_criteria:   "Evaluation criteria",
+  sup_stat_traceability:"Traceability",
+
+  /* ── LIEFERANT – QLTC lists ───────────────────────────────────── */
+  sup_qltc_q_list: ["ISO 9001:2015 (mandatory)", "EN 9100 for aerospace parts", "Full inspection records", "Material certificates to EN 10204", "Internal first inspection before delivery"],
+  sup_qltc_l_list: ["On-time delivery as a measurable KPI", "Binding order confirmations", "Early communication on deviations", "JIT capability on request", "Flexible batch sizes"],
+  sup_qltc_t_list: ["State-of-the-art manufacturing processes", "In-house metrology / quality inspection", "Willingness to improve processes", "Certification expansion on request", "Technical consulting capability"],
+  sup_qltc_c_list: ["Competitive price-to-performance ratio", "Transparent cost basis", "Willingness to participate in cost optimisation", "Volume agreements possible", "Stable pricing"],
+
+  /* ── LIEFERANT – Cert-req cards ───────────────────────────────── */
+  sup_cert_required:    "Mandatory",
+  sup_cert_conditional: "Sector-dependent",
+  sup_cert_recommended: "Recommended",
+  sup_cert_beneficial:  "Advantageous",
+
+  sup_cert1_desc: "Quality management system – requirements. Valid certificate from an accredited certification body required.",
+  sup_cert2_desc: "Aerospace quality management system. Required for all suppliers manufacturing aerospace parts for Berghoff.",
+  sup_cert3_desc: "Environmental management system. As an alternative or supplement to EN 9100 – demonstrates commitment to sustainable business practice.",
+  sup_cert4_desc: "Automotive quality standard. Not mandatory, but viewed positively as evidence of a robust QMS culture.",
+  sup_cert5_desc: "Non-Destructive Testing – qualification and certification of NDT personnel. Relevant for suppliers of safety-critical components in aerospace and medical technology.",
+
+  /* ── LIEFERANT – Process steps ────────────────────────────────── */
+  sup_step1_title: "Initial Contact",
+  sup_step1_text:  "Get in touch — by email, phone or via the contact form on this page.",
+  sup_step2_title: "Self-Assessment",
+  sup_step2_text:  "Complete our supplier self-assessment questionnaire with information on certifications, capacities and core competencies.",
+  sup_step3_title: "Review & Audit",
+  sup_step3_text:  "We assess your documentation. If the result is positive, a supplier audit may follow — on-site or remotely.",
+  sup_step4_title: "Approval",
+  sup_step4_text:  "After successful qualification, we add you to our supplier database and discuss initial projects.",
+
+  /* ── LIEFERANT – Selbstauskunft ───────────────────────────────── */
+  sup_self_label: "Online Questionnaire",
+  sup_self_title: "Supplier Self-Assessment",
+  sup_self_text:  "The supplier self-assessment questionnaire is a proven method for systematically gathering information about suppliers and their performance potential. It also serves to qualify new suppliers.",
+  sup_self_btn:   "Complete supplier self-assessment",
+
+  /* ── LIEFERANT – Dokumente ────────────────────────────────────── */
+  sup_doc1_title: "Supplier Self-Assessment",
+  sup_doc1_desc:  "Online questionnaire to capture your company and qualification data. The basis for supplier qualification.",
+  sup_doc1_link:  "Open online questionnaire",
+  sup_doc2_title: "General Terms of Purchase",
+  sup_doc2_desc:  "Our General Terms of Purchase (GTP) — the legal basis for all supplier relationships.",
+  sup_doc2_link:  "Download (PDF)",
+  sup_doc3_title: "Quality Assurance Agreement (QAA)",
+  sup_doc3_desc:  "Detailed requirements for quality, inspection, documentation and delivery conditions for our suppliers.",
+  sup_doc3_link:  "Download (PDF)",
+
+  /* ── LIEFERANT – Contact & Form ───────────────────────────────── */
+  sup_contact_phone_label: "Purchasing Phone",
+  sup_contact_email_label: "Supplier Email",
+  sup_form_company:        "Company *",
+  sup_form_contact:        "Contact Person *",
+  sup_form_certs_label:    "Current Certifications",
+  sup_form_competence:     "Core Competencies / Manufacturing Processes",
+  sup_form_competence_ph:  "e.g. CNC turning, surface finishing, welding ...",
+  sup_form_desc_label:     "Brief Description of Your Company",
+  sup_form_desc_ph:        "Please briefly describe your range of services, your capacities and why a collaboration with Berghoff is of interest to you.",
+  sup_form_privacy:        "I have read the privacy policy and consent to the processing of my data. *",
+  sup_form_submit:         "Submit Enquiry",
+  sup_form_success:        "Thank you for your interest! Our purchasing team will be in touch within a few working days.",
 },
 };

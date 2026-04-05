@@ -25,10 +25,11 @@
     document.querySelectorAll('[data-i18n]').forEach(el => {
       const key = el.getAttribute('data-i18n');
       if (t[key] === undefined) return;
-      if (el.tagName === 'H1' || el.tagName === 'H2') {
-        el.innerHTML = t[key].replace(/\n/g, '<br>');
+      const val = t[key];
+      if (/[<\n]/.test(val)) {
+        el.innerHTML = val.replace(/\n/g, '<br>');
       } else {
-        el.textContent = t[key];
+        el.textContent = val;
       }
     });
 
@@ -48,7 +49,8 @@
       const key  = container.getAttribute('data-i18n-tags');
       const tags = t[key];
       if (!Array.isArray(tags)) return;
-      container.innerHTML = tags.map(tag => `<span class="ind-tag">${tag}</span>`).join('');
+      const cls = container.classList.contains('ind-tags') ? ' class="ind-tag"' : '';
+      container.innerHTML = tags.map(tag => `<span${cls}>${tag}</span>`).join('');
     });
 
     document.querySelectorAll('select option[data-i18n]').forEach(opt => {
