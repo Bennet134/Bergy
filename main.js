@@ -230,4 +230,13 @@
   /* ─── Init ────────────────────────────────────────────────────── */
   applyTranslations(currentLang);
 
+  /* ─── Softgarden external link indicators ──────────────────────── */
+  document.querySelectorAll('a[href*="softgarden.io"]').forEach(function(link) {
+    link.classList.add('btn--external');
+    var note = document.createElement('small');
+    note.className = 'btn-ext-note';
+    note.textContent = '↗ softgarden.io';
+    link.insertAdjacentElement('afterend', note);
+  });
+
 })();

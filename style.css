@@ -1762,6 +1762,15 @@ input.field-error, textarea.field-error {
   border-top: 1px solid var(--border);
 }
 
+/* External link note (below softgarden buttons) */
+.btn-ext-note {
+  display: block;
+  font-size: 0.63rem;
+  color: var(--grey-400);
+  margin-top: 5px;
+  letter-spacing: 0.02em;
+}
+
 /* Category image strip (for 5-achs, messtechnik) */
 .mach-cat-strip {
   width: 100%;
@@ -1780,6 +1789,8 @@ input.field-error, textarea.field-error {
   display: block;
   filter: brightness(0.85) saturate(0.9);
 }
+
+.mach-cat-strip--tall { height: 400px; }
 
 .mach-cat-strip::after {
   content: '';
@@ -2554,6 +2565,143 @@ input.field-error, textarea.field-error {
 .sup-contact-info .section-label { text-align: left; }
 .sup-contact-info h2 { font-size: clamp(1.4rem,2.5vw,1.8rem); margin-bottom: 14px; }
 .sup-contact-info > p { color: var(--grey-500); font-size: 0.875rem; line-height: 1.75; }
+
+/* ═══════════════════════════════════════════════════════════════
+   STANDORTE
+   ═══════════════════════════════════════════════════════════════ */
+
+.standorte-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 20px;
+  align-items: stretch;
+}
+
+/* Primary card – Drolshagen */
+.standort-primary {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  min-height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.standort-primary-img {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+}
+.standort-primary::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.88) 0%, rgba(0,0,0,0.45) 45%, rgba(0,0,0,0.05) 100%);
+}
+.standort-primary-content {
+  position: relative;
+  z-index: 2;
+  padding: 32px 36px;
+}
+.standort-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: rgba(0,159,227,0.12);
+  border: 1px solid rgba(0,159,227,0.35);
+  border-radius: 3px;
+  padding: 3px 9px;
+  margin-bottom: 12px;
+}
+.standort-primary-content h3 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+  line-height: 1.1;
+}
+.standort-addr {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: 20px;
+}
+.standort-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.standort-metric {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: var(--radius);
+  padding: 12px 10px;
+  text-align: center;
+}
+.standort-metric-val {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+}
+.standort-metric-label {
+  display: block;
+  font-size: 0.63rem;
+  color: rgba(255,255,255,0.5);
+  margin-top: 4px;
+  letter-spacing: 0.03em;
+}
+.standort-primary-text {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.72);
+  line-height: 1.65;
+  max-width: 540px;
+}
+
+/* Secondary card – Gerlingen */
+.standort-secondary {
+  background: var(--grey-50);
+  border: 1px solid var(--grey-100);
+  border-radius: var(--radius-lg);
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.standort-secondary .standort-badge {
+  color: var(--grey-600);
+  background: rgba(0,0,0,0.05);
+  border-color: rgba(0,0,0,0.12);
+  width: fit-content;
+}
+.standort-secondary h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--dark);
+  margin-bottom: 4px;
+  line-height: 1.2;
+}
+.standort-secondary .standort-addr {
+  color: var(--grey-400);
+  margin-bottom: 20px;
+}
+.standort-divider {
+  width: 32px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 1px;
+  margin: 20px 0;
+}
+.standort-secondary p {
+  font-size: 0.85rem;
+  color: var(--grey-500);
+  line-height: 1.7;
+}
 
 /* ═══════════════════════════════════════════════════════════════
    TEAM / ANSPRECHPARTNER

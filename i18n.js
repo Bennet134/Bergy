@@ -109,6 +109,26 @@ de: {
   unt_p4_title: "Kosten",
   unt_p4_text:  "Kostenoptimierung durch Fertigungsplanung, Prozessverbesserung und koordinierte Lieferketten. Keine kurzfristigen Preisversprechen.",
 
+  /* Standorte */
+  standort_label:            "Unsere Standorte",
+  standort_title:            "Zwei Werke. Eine Qualität.",
+
+  standort_drolshagen_badge: "Hauptstandort",
+  standort_drolshagen_title: "Drolshagen",
+  standort_drolshagen_addr:  "Langenheid 1 · 57489 Drolshagen",
+  standort_drolshagen_text:  "Der Hauptstandort in Drolshagen umfasst die vollständige Fertigungskette – von der 5-Achs-Bearbeitung großer Strukturbauteile über Messtechnik bis zum Reinraum. Hier arbeiten der Großteil der Belegschaft und die leistungsstärksten Maschinen des Unternehmens.",
+  standort_drolshagen_m2:    "6.000 m²",
+  standort_drolshagen_m2_label: "Produktionsfläche",
+  standort_drolshagen_machines: "55+",
+  standort_drolshagen_machines_label: "CNC-Maschinen",
+  standort_drolshagen_employees: "140+",
+  standort_drolshagen_employees_label: "Mitarbeiter",
+
+  standort_gerlingen_badge:  "Zweigwerk",
+  standort_gerlingen_title:  "Wenden · Gerlingen",
+  standort_gerlingen_addr:   "Im Ruttenberge 6 · 57482 Wenden",
+  standort_gerlingen_text:   "Der Standort Gerlingen ergänzt das Hauptwerk mit spezialisierten Kapazitäten für Großbauteile und hoher Maschinenverfügbarkeit. Beide Standorte arbeiten nach identischen Qualitätsstandards und sind ISO 9001 sowie EN 9100 zertifiziert.",
+
   /* Qualität */
   qual_label:    "Qualität & Zertifizierung",
   qual_headline: "Qualität ist nachweisbar",
@@ -414,6 +434,22 @@ de: {
   mach_note_dmc635:    "Werkzeugmagazin 24-fach, Hochgenauigkeit",
   mach_note_nexus:     "Hochdynamisch, Serienfertigung",
   mach_note_vf6:       "Großtisch für Vorrichtungsaufbauten, Serienbetrieb",
+
+  /* ── Maschinenpark – new type labels ─────────────────────────── */
+  mach_type_5ax_fd:    "5-Achs-Fräs-/Drehzentrum",
+  mach_type_horiz:     "Horizontal-Fräszentrum",
+  mach_type_turn_cnc:  "Drehzentrum",
+  mach_type_wash:      "Reinigungsanlage",
+
+  /* ── Maschinenpark – new category labels ─────────────────────── */
+  mach_cat_horiz_turn: "Horizontal-Fräszentren & Drehzentren",
+  mach_cat_wash:       "Bauteilreinigung",
+
+  /* ── Maschinenpark – measure machine list items ──────────────── */
+  mach_meas_hex_items:   ["Hersteller: Hexagon", "X: 3.000 mm / Y: 6.300 mm / Z: 2.000 mm", "Messbereich bis 6.000 mm", "Für Großbauteile"],
+  mach_meas_wen108_items:["Hersteller: Wenzel", "X: 1.000 mm / Y: 2.500 mm / Z: 800 mm"],
+  mach_meas_wen87_items: ["Hersteller: Wenzel", "X: 800 mm / Y: 1.000 mm / Z: 700 mm"],
+
   mach_note_ctx_beta:  "Y-Achse, Gegenspindel – Fertigteil in einem Setup",
   mach_note_ctx_gamma: "Schwere Drehteile mit Fräsoperationen",
   mach_note_sprint:    "Schlanke Präzisionsdrehteile, automatische Stangenzufuhr",
