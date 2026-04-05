@@ -8,7 +8,10 @@
       "Bash(sed \"s/:.*//;s/^ *//\")",
       "Read(//tmp/**)",
       "Bash(python3 -c \":*)",
-      "Bash(node -e \":*)"
+      "Bash(node -e \":*)",
+      "Bash(ls \"F:/Projects/Berghoff/Images/Start/\"*logo*)",
+      "Bash(ls \"F:/Projects/Berghoff/Images/Start/\"*Logo*)",
+      "Bash(ls \"F:/Projects/Berghoff/Images/Start/\"*Berghoff*)"
     ]
   }
 }

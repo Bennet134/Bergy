@@ -49,120 +49,37 @@
     <div class="page-hero-label" data-i18n="kar_hero_label"></div>
     <h1 data-i18n="kar_hero_title"></h1>
     <p data-i18n="kar_hero_sub"></p>
-    <div class="hero-badges" style="margin-top:28px">
-      <div class="badge"><span class="badge-icon">✓</span><span data-i18n="kar_badge_family"></span></div>
-      <div class="badge"><span class="badge-icon">✓</span><span data-i18n="kar_badge_retention"></span></div>
-      <div class="badge"><span class="badge-icon">✓</span><span data-i18n="kar_badge_vacation"></span></div>
+    <div class="page-hero-ctas" style="margin-top:32px; display:flex; gap:16px; flex-wrap:wrap;">
+      <a href="#ausbildung" class="btn btn-primary" data-i18n="kar_hero_cta_ausb"></a>
+      <a href="#chapter-stellen" class="btn btn-outline" data-i18n="kar_hero_cta_jobs"></a>
     </div>
   </div>
 </section>
 
-<!-- ═══ OFFENE STELLEN ═══════════════════════════════════════════ -->
-<section class="section" id="stellen">
-  <div class="container">
-    <div class="section-header" style="text-align:left; max-width:none;">
-      <div class="section-label" data-i18n="kar_jobs_label"></div>
-      <h2 data-i18n="kar_jobs_title"></h2>
-    </div>
-    <div class="jobs-layout">
-      <div class="jobs-intro">
-        <p data-i18n="kar_jobs_text"></p>
-        <a href="https://berghoff.softgarden.io/de/vacancies" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:20px; display:inline-flex;" data-i18n="kar_jobs_btn"></a>
-        <p class="jobs-note" data-i18n="kar_jobs_note"></p>
-      </div>
-      <!-- Sample job listings – in production, these would be loaded dynamically -->
-      <div class="jobs-list">
-        <div class="job-card">
-          <div class="job-card-header">
-            <div>
-              <div class="job-tag" data-i18n="kar_tag_fulltime"></div>
-              <h3 class="job-title" data-i18n="kar_job1_title"></h3>
-              <div class="job-meta">
-                <span class="job-meta-item">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
-                  Drolshagen / Wenden
-                </span>
-                <span class="job-meta-item">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-                  <span data-i18n="kar_asap"></span>
-                </span>
-              </div>
-            </div>
-            <a href="https://berghoff.softgarden.io/de/vacancies" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm" data-i18n="kar_btn_apply"></a>
-          </div>
-          <p class="job-desc" data-i18n="kar_job1_desc"></p>
-          <div class="job-skills" data-i18n-tags="kar_job1_skills"></div>
-        </div>
+<!-- ═══ SPLIT – TWO AUDIENCES ═════════════════════════════════ -->
+<div class="kar-split" id="zielgruppen">
 
-        <div class="job-card">
-          <div class="job-card-header">
-            <div>
-              <div class="job-tag" data-i18n="kar_tag_fulltime"></div>
-              <h3 class="job-title" data-i18n="kar_job2_title"></h3>
-              <div class="job-meta">
-                <span class="job-meta-item">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
-                  Wenden
-                </span>
-                <span class="job-meta-item">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-                  <span data-i18n="kar_asap"></span>
-                </span>
-              </div>
-            </div>
-            <a href="https://berghoff.softgarden.io/de/vacancies" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm" data-i18n="kar_btn_apply"></a>
-          </div>
-          <p class="job-desc" data-i18n="kar_job2_desc"></p>
-          <div class="job-skills" data-i18n-tags="kar_job2_skills"></div>
-        </div>
-
-        <div class="job-card">
-          <div class="job-card-header">
-            <div>
-              <div class="job-tag" data-i18n="kar_tag_fulltime"></div>
-              <h3 class="job-title" data-i18n="kar_job3_title"></h3>
-              <div class="job-meta">
-                <span class="job-meta-item">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
-                  Drolshagen
-                </span>
-                <span class="job-meta-item">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-                  <span data-i18n="kar_asap"></span>
-                </span>
-              </div>
-            </div>
-            <a href="https://berghoff.softgarden.io/de/vacancies" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm" data-i18n="kar_btn_apply"></a>
-          </div>
-          <p class="job-desc" data-i18n="kar_job3_desc"></p>
-          <div class="job-skills" data-i18n-tags="kar_job3_skills"></div>
-        </div>
-
-        <div class="job-card">
-          <div class="job-card-header">
-            <div>
-              <div class="job-tag" data-i18n="kar_tag_fulltime"></div>
-              <h3 class="job-title" data-i18n="kar_job4_title"></h3>
-              <div class="job-meta">
-                <span class="job-meta-item">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
-                  Drolshagen
-                </span>
-                <span class="job-meta-item">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-                  <span data-i18n="kar_soon"></span>
-                </span>
-              </div>
-            </div>
-            <a href="https://berghoff.softgarden.io/de/vacancies" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm" data-i18n="kar_btn_apply"></a>
-          </div>
-          <p class="job-desc" data-i18n="kar_job4_desc"></p>
-          <div class="job-skills" data-i18n-tags="kar_job4_skills"></div>
-        </div>
-      </div>
+  <div class="kar-split-card">
+    <div class="kar-split-card-bg" style="background-image:url('Images/Karriere/Lehrwerkstatt-auszubildende-berghoff.jpg.jpeg')"></div>
+    <div class="kar-split-card-content">
+      <span class="kar-split-card-label" data-i18n="kar_split_ausb_label"></span>
+      <h3 data-i18n="kar_split_ausb_title"></h3>
+      <p data-i18n="kar_split_ausb_text"></p>
+      <a href="#ausbildung" class="btn btn-primary" data-i18n="kar_split_ausb_btn"></a>
     </div>
   </div>
-</section>
+
+  <div class="kar-split-card">
+    <div class="kar-split-card-bg" style="background-image:url('Images/Jobs/Mitarbeiter-an-Maschine-farbig-komprimiert.jpeg')"></div>
+    <div class="kar-split-card-content">
+      <span class="kar-split-card-label" data-i18n="kar_split_jobs_label"></span>
+      <h3 data-i18n="kar_split_jobs_title"></h3>
+      <p data-i18n="kar_split_jobs_text"></p>
+      <a href="#chapter-stellen" class="btn btn-primary" data-i18n="kar_split_jobs_btn"></a>
+    </div>
+  </div>
+
+</div>
 
 <!-- ═══ AUSBILDUNG ════════════════════════════════════════════════ -->
 <section class="section section--alt" id="ausbildung">
@@ -448,6 +365,141 @@
   </div>
 </section>
 
+<!-- ═══ CHAPTER: STELLENANGEBOTE ═════════════════════════════════ -->
+<section class="karriere-chapter" id="chapter-stellen">
+  <div class="container">
+    <div class="section-label" data-i18n="kar_chapter_jobs_label"></div>
+    <h2 data-i18n="kar_chapter_jobs_title"></h2>
+    <p data-i18n="kar_chapter_jobs_sub"></p>
+  </div>
+</section>
+
+<!-- ═══ FACHKRÄFTE INTRO ══════════════════════════════════════════ -->
+<section class="section" id="fachkraefte">
+  <div class="container">
+    <div class="jobs-fachkraft-layout">
+      <div class="jobs-fachkraft-text">
+        <div class="section-label" data-i18n="kar_fachkraft_label"></div>
+        <h2 data-i18n="kar_fachkraft_title"></h2>
+        <p data-i18n="kar_fachkraft_intro"></p>
+        <p data-i18n="kar_fachkraft_text2"></p>
+      </div>
+      <div class="jobs-fachkraft-images">
+        <img src="Images/Jobs/1I4A7231.jpeg" alt="CNC-Bearbeitung bei Berghoff" loading="lazy" />
+        <img src="Images/Jobs/Mitarbeiter-an-Maschine-farbig-komprimiert.jpeg" alt="Mitarbeiter an der Maschine" loading="lazy" />
+        <img src="Images/Jobs/spaene-metallbearbeitung-berghoff-drolshagen.jpeg" alt="Metallbearbeitung bei Berghoff" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ OFFENE STELLEN ═══════════════════════════════════════════ -->
+<section class="section section--alt" id="stellen">
+  <div class="container">
+    <div class="section-header" style="text-align:left; max-width:none;">
+      <div class="section-label" data-i18n="kar_jobs_label"></div>
+      <h2 data-i18n="kar_jobs_title"></h2>
+    </div>
+    <div class="jobs-layout">
+      <div class="jobs-intro">
+        <p data-i18n="kar_jobs_text"></p>
+        <a href="https://berghoff.softgarden.io/de/vacancies" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:20px; display:inline-flex;" data-i18n="kar_jobs_btn"></a>
+        <p class="jobs-note" data-i18n="kar_jobs_note"></p>
+      </div>
+      <!-- Sample job listings – in production, these would be loaded dynamically -->
+      <div class="jobs-list">
+        <div class="job-card">
+          <div class="job-card-header">
+            <div>
+              <div class="job-tag" data-i18n="kar_tag_fulltime"></div>
+              <h3 class="job-title" data-i18n="kar_job1_title"></h3>
+              <div class="job-meta">
+                <span class="job-meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+                  Drolshagen / Wenden
+                </span>
+                <span class="job-meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  <span data-i18n="kar_asap"></span>
+                </span>
+              </div>
+            </div>
+            <a href="https://berghoff.softgarden.io/de/vacancies" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm" data-i18n="kar_btn_apply"></a>
+          </div>
+          <p class="job-desc" data-i18n="kar_job1_desc"></p>
+          <div class="job-skills" data-i18n-tags="kar_job1_skills"></div>
+        </div>
+
+        <div class="job-card">
+          <div class="job-card-header">
+            <div>
+              <div class="job-tag" data-i18n="kar_tag_fulltime"></div>
+              <h3 class="job-title" data-i18n="kar_job2_title"></h3>
+              <div class="job-meta">
+                <span class="job-meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+                  Wenden
+                </span>
+                <span class="job-meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  <span data-i18n="kar_asap"></span>
+                </span>
+              </div>
+            </div>
+            <a href="https://berghoff.softgarden.io/de/vacancies" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm" data-i18n="kar_btn_apply"></a>
+          </div>
+          <p class="job-desc" data-i18n="kar_job2_desc"></p>
+          <div class="job-skills" data-i18n-tags="kar_job2_skills"></div>
+        </div>
+
+        <div class="job-card">
+          <div class="job-card-header">
+            <div>
+              <div class="job-tag" data-i18n="kar_tag_fulltime"></div>
+              <h3 class="job-title" data-i18n="kar_job3_title"></h3>
+              <div class="job-meta">
+                <span class="job-meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+                  Drolshagen
+                </span>
+                <span class="job-meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  <span data-i18n="kar_asap"></span>
+                </span>
+              </div>
+            </div>
+            <a href="https://berghoff.softgarden.io/de/vacancies" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm" data-i18n="kar_btn_apply"></a>
+          </div>
+          <p class="job-desc" data-i18n="kar_job3_desc"></p>
+          <div class="job-skills" data-i18n-tags="kar_job3_skills"></div>
+        </div>
+
+        <div class="job-card">
+          <div class="job-card-header">
+            <div>
+              <div class="job-tag" data-i18n="kar_tag_fulltime"></div>
+              <h3 class="job-title" data-i18n="kar_job4_title"></h3>
+              <div class="job-meta">
+                <span class="job-meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+                  Drolshagen
+                </span>
+                <span class="job-meta-item">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  <span data-i18n="kar_soon"></span>
+                </span>
+              </div>
+            </div>
+            <a href="https://berghoff.softgarden.io/de/vacancies" target="_blank" rel="noopener" class="btn btn-outline-dark btn-sm" data-i18n="kar_btn_apply"></a>
+          </div>
+          <p class="job-desc" data-i18n="kar_job4_desc"></p>
+          <div class="job-skills" data-i18n-tags="kar_job4_skills"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ═══ FAQ ════════════════════════════════════════════════════════ -->
 <section class="section" id="faq">
   <div class="container">
@@ -519,6 +571,7 @@
             <a href="mailto:sonja.saul@berghoff.eu">sonja.saul@berghoff.eu</a>
           </div>
           <p class="contact-person-scope" data-i18n="kar_contact_scope_hr"></p>
+          <blockquote class="contact-person-quote">"Wir legen ganz besonderen Wert darauf, dass sich unsere Auszubildenden wohlfühlen und gehaltvolle Aufgaben bei uns übernehmen, um sich so persönlich und beruflich stetig weiterzuentwickeln."</blockquote>
         </div>
       </div>
       <div class="contact-person">
@@ -531,6 +584,20 @@
             <a href="mailto:christoph.doemer@berghoff.eu">christoph.doemer@berghoff.eu</a>
           </div>
           <p class="contact-person-scope" data-i18n="kar_contact_scope_ausb"></p>
+          <blockquote class="contact-person-quote">"Für uns spricht besonders, dass unsere Auszubildenden in unserer hauseigenen Lehrwerkstatt an fortschrittlichen Maschinen und mit modernem Werkzeug arbeiten."</blockquote>
+        </div>
+      </div>
+      <div class="contact-person">
+        <div class="contact-person-avatar" style="background:url('Images/Karriere/Joerg-Siedenstein-2022.png') center/cover no-repeat; font-size:0"></div>
+        <div class="contact-person-info">
+          <h3>Jörg Siedenstein</h3>
+          <div class="contact-person-role" data-i18n="kar_contact_role_joerg"></div>
+          <div class="contact-person-links">
+            <a href="tel:+4927632127929">+49 2763 21279-29</a>
+            <a href="mailto:joerg.siedenstein@berghoff.eu">joerg.siedenstein@berghoff.eu</a>
+          </div>
+          <p class="contact-person-scope" data-i18n="kar_contact_scope_joerg"></p>
+          <blockquote class="contact-person-quote">"Unser familiäres Miteinander sorgt für einen Arbeitsplatz, an dem man sich nicht nur wohlfühlt, sondern auch Spaß bei der Arbeit hat."</blockquote>
         </div>
       </div>
     </div>
@@ -541,7 +608,7 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <div class="footer-brand">
-      <img src="Images/Start/berghoff_logo-weiss-gross.png" alt="Berghoff GmbH" class="footer-logo" />
+      <img src="Images/Start/berghoff_logo-schwarz-gross.png" alt="Berghoff GmbH" class="footer-logo" />
       <p class="footer-tagline" data-i18n="footer_tagline"></p>
       <div class="footer-social">
         <a href="https://www.linkedin.com/company/berghoff-group---pure-performance-absolute-precision" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Berghoff auf LinkedIn">
@@ -579,6 +646,8 @@
         <ul>
           <li><a href="impressum.html" data-i18n="footer_imprint"></a></li>
           <li><a href="datenschutz.html" data-i18n="footer_privacy"></a></li>
+          <li><a href="datenschutz-bewerbungstool.html" data-i18n="footer_privacy_jobs"></a></li>
+          <li><a href="datenschutzerklaerung.html" data-i18n="footer_privacy_full"></a></li>
           <li><a href="agb.html" data-i18n="footer_terms"></a></li>
         </ul>
       </div>

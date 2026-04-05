@@ -987,6 +987,16 @@ h1 {
   color: var(--white);
 }
 
+.awards-strip {
+  margin-top: 56px;
+  text-align: center;
+}
+.awards-strip img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+}
+
 /* ═══════════════════════════════════════════════════════════════
    TEASER CARDS
    ═══════════════════════════════════════════════════════════════ */
@@ -1200,7 +1210,7 @@ h1 {
   letter-spacing: 0.02em;
 }
 
-.form-group input,
+.form-group input:not([type="checkbox"]),
 .form-group select,
 .form-group textarea {
   padding: 10px 13px;
@@ -1235,13 +1245,46 @@ h1 {
 }
 
 .form-group--check input[type="checkbox"] {
-  width: 15px;
-  height: 15px;
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
   flex-shrink: 0;
   margin-top: 2px;
   padding: 0;
-  border: 1px solid var(--border);
-  accent-color: var(--accent);
+  border: 1.8px solid var(--border);
+  border-radius: 3px;
+  background: var(--white);
+  cursor: pointer;
+  position: relative;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.form-group--check input[type="checkbox"]:checked {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.form-group--check input[type="checkbox"]::after {
+  content: '';
+  position: absolute;
+  display: none;
+  left: 50%;
+  top: 45%;
+  width: 4px;
+  height: 8px;
+  border: 2px solid #fff;
+  border-top: none;
+  border-left: none;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.form-group--check input[type="checkbox"]:checked::after { display: block; }
+
+.form-group--check input[type="checkbox"]:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
 }
 
 .checkbox-group {
@@ -1286,14 +1329,14 @@ h1 {
   content: '';
   position: absolute;
   display: none;
-  left: 4px;
-  top: 1px;
+  left: 50%;
+  top: 45%;
   width: 5px;
   height: 10px;
   border: 2px solid #fff;
   border-top: none;
   border-left: none;
-  transform: rotate(45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .checkbox-group input[type="checkbox"]:checked::after {
@@ -1880,6 +1923,162 @@ input.field-error, textarea.field-error {
    KARRIERE PAGE
    ═══════════════════════════════════════════════════════════════ */
 
+/* ── Split section (two audience cards) ─────────────────────── */
+.kar-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 500px;
+}
+.kar-split-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 52px 48px;
+  overflow: hidden;
+}
+.kar-split-card-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.7s ease;
+}
+.kar-split-card:hover .kar-split-card-bg {
+  transform: scale(1.05);
+}
+.kar-split-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.1) 100%);
+  z-index: 1;
+}
+.kar-split-card-content {
+  position: relative;
+  z-index: 2;
+}
+.kar-split-card-label {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+.kar-split-card-content h3 {
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 14px;
+  line-height: 1.2;
+}
+.kar-split-card-content p {
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.82);
+  line-height: 1.65;
+  margin-bottom: 28px;
+  max-width: 380px;
+}
+
+/* ── Zone anchor (Jobs section header) ──────────────────────── */
+.section-zone-anchor {
+  background: var(--dark);
+  padding: 60px 0 52px;
+  text-align: center;
+}
+.section-zone-anchor .section-label {
+  color: var(--accent);
+  background: transparent;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.section-zone-anchor h2 {
+  color: #fff;
+  font-size: clamp(1.7rem, 3.5vw, 2.4rem);
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.section-zone-anchor p {
+  color: var(--grey-300);
+  font-size: 0.95rem;
+  max-width: 540px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Chapter dividers */
+.karriere-chapter {
+  background: var(--dark);
+  color: #fff;
+  padding: 72px 0 64px;
+  text-align: center;
+}
+.karriere-chapter .section-label {
+  color: var(--accent);
+  background: transparent;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.karriere-chapter h2 {
+  color: #fff;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.karriere-chapter p {
+  color: var(--grey-300);
+  font-size: 1rem;
+  max-width: 580px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Fachkräfte intro section */
+.jobs-fachkraft-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: center;
+  margin-bottom: 56px;
+}
+.jobs-fachkraft-text .section-label {
+  margin-bottom: 12px;
+}
+.jobs-fachkraft-text p {
+  color: var(--grey-500);
+  font-size: 0.92rem;
+  line-height: 1.75;
+  margin-bottom: 14px;
+}
+.jobs-fachkraft-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
+.jobs-fachkraft-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: var(--radius);
+  display: block;
+}
+.jobs-fachkraft-images img:first-child {
+  grid-column: 1 / -1;
+  height: 220px;
+}
+.jobs-fachkraft-images img:not(:first-child) {
+  height: 140px;
+}
+
 /* Jobs layout */
 .jobs-layout {
   display: grid;
@@ -2049,10 +2248,8 @@ input.field-error, textarea.field-error {
 /* Contact persons */
 .contact-persons {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  max-width: 720px;
-  margin: 0 auto;
 }
 
 .contact-person {
@@ -2102,6 +2299,18 @@ input.field-error, textarea.field-error {
 .contact-person-links a:hover { color: var(--accent-dark); }
 
 .contact-person-scope { font-size: 0.78rem; color: var(--grey-500); line-height: 1.5; }
+
+.contact-person-quote {
+  margin-top: 14px;
+  padding: 10px 12px;
+  border-left: 3px solid var(--accent);
+  font-size: 0.76rem;
+  font-style: italic;
+  color: var(--grey-500);
+  line-height: 1.6;
+  background: var(--accent-light);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
 
 /* ═══════════════════════════════════════════════════════════════
    LIEFERANT PAGE
@@ -2501,6 +2710,9 @@ input.field-error, textarea.field-error {
 /* Tablet ≤ 900px */
 @media (max-width: 900px) {
   .jobs-layout       { grid-template-columns: 1fr; gap: 36px; }
+  .jobs-fachkraft-layout { grid-template-columns: 1fr; gap: 36px; }
+  .kar-split { grid-template-columns: 1fr; min-height: unset; }
+  .kar-split-card { min-height: 300px; padding: 36px 28px; }
   .contact-layout    { grid-template-columns: 1fr; gap: 36px; }
   .sup-contact-layout { grid-template-columns: 1fr; gap: 36px; }
   .sup-intro-layout  { grid-template-columns: 1fr; gap: 28px; }
@@ -2509,7 +2721,7 @@ input.field-error, textarea.field-error {
   .measure-grid      { grid-template-columns: 1fr; }
   .docs-grid         { grid-template-columns: repeat(2, 1fr); }
   .benefits-grid     { grid-template-columns: repeat(2, 1fr); }
-  .contact-persons   { grid-template-columns: 1fr; max-width: 420px; }
+  .contact-persons   { grid-template-columns: 1fr; }
 }
 
 /* Mobile ≤ 768px */

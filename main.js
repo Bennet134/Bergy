@@ -135,6 +135,9 @@
     form.addEventListener('submit', e => {
       e.preventDefault();
 
+      // Honeypot: reject if bot filled the hidden field
+      if (form.querySelector('[name="website"]')?.value) return;
+
       let valid = true;
       form.querySelectorAll('[required]').forEach(field => {
         field.classList.remove('field-error');
@@ -147,6 +150,13 @@
           field.classList.add('field-error');
         }
       });
+
+      // Email format validation
+      const emailField = form.querySelector('[name="email"]');
+      if (emailField && emailField.value.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailField.value.trim())) {
+        valid = false;
+        emailField.classList.add('field-error');
+      }
 
       if (!valid) return;
 

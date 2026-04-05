@@ -181,8 +181,10 @@ de: {
   footer_supplier:   "Lieferant werden",
   footer_imprint:    "Impressum",
   footer_privacy:    "Datenschutz",
-  footer_terms:      "AGB",
-  footer_copy:       "© 2024 Berghoff GmbH · Alle Rechte vorbehalten",
+  footer_terms:          "AGB",
+  footer_privacy_jobs:   "Datenschutz Bewerbungstool",
+  footer_privacy_full:   "Datenschutzerklärung",
+  footer_copy:           "© 2026 Berghoff GmbH · Alle Rechte vorbehalten",
 
   /* ── MASCHINENPARK PAGE ──────────────────────────────────────── */
   mach_page_title:      "Maschinenpark | Berghoff GmbH",
@@ -216,8 +218,8 @@ de: {
   kar_page_title:       "Karriere | Berghoff GmbH",
   kar_page_meta:        "Karriere bei Berghoff GmbH – Offene Stellen, Ausbildungsplätze und Berufseinstieg in der CNC-Präzisionsfertigung in Drolshagen und Wenden.",
   kar_hero_label:       "Karriere & Ausbildung",
-  kar_hero_title:       "Werden Sie Teil des Berghoff-Teams",
-  kar_hero_sub:         "Wir suchen Fachkräfte und Nachwuchstalente für die CNC-Präzisionsfertigung. Inhabergeführtes Unternehmen, kollegiales Umfeld, klare Entwicklungsperspektive.",
+  kar_hero_title:       "Karriere bei Berghoff",
+  kar_hero_sub:         "Ob du mit einer Ausbildung startest oder als Fachkraft wechselst – bei Berghoff findest du ein stabiles Unternehmen, echte Aufgaben und ein Team, das füreinander einsteht.",
   kar_jobs_label:       "Offene Stellen",
   kar_jobs_title:       "Aktuelle Stellenangebote",
   kar_jobs_text:        "Unsere aktuellen Stellenangebote finden Sie auf unserer externen Karriereplattform. Bewerbung direkt möglich, ohne Anmeldung.",
@@ -476,10 +478,65 @@ de: {
   mach_clean_f6_sub:   "Baugruppen bis Modulebene",
 
   /* ── KARRIERE – Contact roles ────────────────────────────────── */
-  kar_contact_role_hr:    "Personalleitung",
-  kar_contact_scope_hr:   "Stellenangebote, Bewerbungen, Arbeitsverträge",
-  kar_contact_role_ausb:  "Ausbildungsleitung",
-  kar_contact_scope_ausb: "Ausbildungsplätze, Schnuppertage, Ausbildungsverlauf",
+  kar_contact_role_hr:     "Personalleitung",
+  kar_contact_scope_hr:    "Stellenangebote, Bewerbungen, Arbeitsverträge",
+  kar_contact_role_ausb:   "Ausbildungsleitung",
+  kar_contact_scope_ausb:  "Ausbildungsplätze, Schnuppertage, Ausbildungsverlauf",
+  kar_contact_role_joerg:  "Leiter Logistik",
+  kar_contact_scope_joerg: "Logistik, Versand, Lagerhaltung",
+
+  /* ── KARRIERE – Chapter dividers ─────────────────────────────── */
+  kar_chapter_ausb_label:  "Für Schülerinnen & Schüler",
+  kar_chapter_ausb_title:  "Ausbildung bei Berghoff",
+  kar_chapter_ausb_sub:    "Starte deine Karriere mit einer fundierten Ausbildung in der CNC-Präzisionsfertigung – in einem modernen Unternehmen mit echter Perspektive.",
+
+  kar_chapter_jobs_label:  "Für Fachkräfte & Berufserfahrene",
+  kar_chapter_jobs_title:  "Stellenangebote",
+  kar_chapter_jobs_sub:    "Präzision trifft Verlässlichkeit: Werde Teil eines wachsenden Unternehmens, das auf Qualität und stabile Strukturen setzt.",
+
+  /* ── KARRIERE – Fachkräfte section ───────────────────────────── */
+  kar_fachkraft_label:     "Ihr neuer Arbeitgeber",
+  kar_fachkraft_title:     "Moderne Fertigung. Stabiles Unternehmen.",
+  kar_fachkraft_intro:     "Berghoff fertigt hochpräzise Bauteile und Baugruppen für die Halbleiter-, Luft- und Raumfahrt-, Medizin- und Energietechnik. An unseren beiden Standorten in Drolshagen und Wenden arbeiten über 200 Mitarbeiterinnen und Mitarbeiter täglich mit modernsten 5-Achs-CNC-Maschinen und Messtechnik auf höchstem Niveau.",
+  kar_fachkraft_text2:     "Als inhabergeführtes Unternehmen bieten wir Ihnen langfristige Perspektiven statt kurzfristiger Projekte, klare Verantwortungsbereiche und ein kollegiales Umfeld, das auf gegenseitigem Respekt aufgebaut ist.",
+
+  /* ── KARRIERE – Hero CTAs ────────────────────────────────────── */
+  kar_hero_cta_ausb: "Ausbildung starten",
+  kar_hero_cta_jobs: "Stellenangebote ansehen",
+
+  /* ── KARRIERE – Split section ────────────────────────────────── */
+  kar_split_ausb_label: "Für Schülerinnen & Schüler",
+  kar_split_ausb_title: "Starte deine Ausbildung",
+  kar_split_ausb_text:  "Seit 2007 bilden wir aus. 95 % Übernahmequote, eigene Lehrwerkstatt, modernes Gerät – und ein Team, das echte Einarbeitung ernst nimmt.",
+  kar_split_ausb_btn:   "Zur Ausbildung",
+  kar_split_jobs_label: "Für Fachkräfte & Berufserfahrene",
+  kar_split_jobs_title: "Finde deinen nächsten Job",
+  kar_split_jobs_text:  "Moderne 5-Achs-Anlagen, anspruchsvolle Bauteile, inhabergeführte Strukturen. Für Leute, die ihr Handwerk ernst nehmen.",
+  kar_split_jobs_btn:   "Zu den Stellenangeboten",
+
+  /* ── KARRIERE – Ausbildung FAQ ──────────────────────────────── */
+  kar_faq_ausb_label: "FAQ Ausbildung",
+  kar_faq_ausb_title: "Fragen zur Ausbildung",
+  kar_faq_ausb_intro: "Alles, was Schülerinnen, Schüler und Eltern häufig fragen – ehrlich beantwortet.",
+
+  /* ── KARRIERE – Jobs FAQ ────────────────────────────────────── */
+  kar_faq_jobs_label: "FAQ Stellenangebote",
+  kar_faq_jobs_title: "Fragen für Fachkräfte",
+  kar_faq_jobs_intro: "Was Bewerberinnen und Bewerber mit Berufserfahrung am häufigsten fragen.",
+  kar_faq_j1_q: "Welche Qualifikationen werden für technische Stellen vorausgesetzt?",
+  kar_faq_j1_a: "Für Stellen als CNC-Fräser oder Dreher setzen wir eine abgeschlossene Ausbildung als Zerspanungsmechaniker oder vergleichbare Qualifikation voraus. Erfahrung an 5-Achs-Maschinen ist von Vorteil, aber kein Muss – wir arbeiten Sie ein.",
+  kar_faq_j2_q: "Gibt es Schichtarbeit bei Berghoff?",
+  kar_faq_j2_a: "In der Produktion arbeiten wir in Früh- und Spätschicht. Tagschicht ist je nach Bereich ebenfalls möglich. Schichtpläne werden gemeinsam abgestimmt, Überstunden werden vergütet oder als Freizeitausgleich gewährt.",
+  kar_faq_j3_q: "Wie läuft der Bewerbungsprozess für Fachkräfte ab?",
+  kar_faq_j3_a: "Nach Eingang Ihrer Bewerbung melden wir uns in der Regel innerhalb einer Woche. Es folgt ein kurzes Telefongespräch und bei gegenseitigem Interesse ein persönliches Gespräch – gerne direkt in der Fertigung.",
+  kar_faq_j4_q: "Wie lange dauert es bis zur ersten Rückmeldung?",
+  kar_faq_j4_a: "In der Regel fünf bis sieben Werktage. Bei Fragen können Sie sich jederzeit direkt an Sonja Saul wenden.",
+  kar_faq_j5_q: "Welche Maschinen und Technologien werden eingesetzt?",
+  kar_faq_j5_a: "Über 80 CNC-Maschinen: 5-Achs-Bearbeitungszentren (Hermle, DMG MORI), Dreh-Fräszentren (Index, Traub), Messtechnik (Zeiss Contura, Renishaw). Steuerungen: Siemens 840D und Heidenhain TNC 640.",
+  kar_faq_j6_q: "Gibt es Weiterbildungsmöglichkeiten?",
+  kar_faq_j6_a: "Ja. Wir unterstützen interne Schulungen, externe Seminare, Meistervorbereitung und CAM-Training – zeitlich und finanziell.",
+  kar_faq_j7_q: "Ist ein Quereinstieg möglich?",
+  kar_faq_j7_a: "In einzelnen Bereichen ja, wenn technisches Grundverständnis vorhanden ist. Wir schauen uns jeden Fall individuell an.",
 
   /* ── KARRIERE – Hero badges ───────────────────────────────────── */
   kar_badge_family:    "Inhabergeführtes Familienunternehmen",
@@ -806,7 +863,7 @@ en: {
   footer_imprint:    "Legal Notice",
   footer_privacy:    "Privacy Policy",
   footer_terms:      "Terms & Conditions",
-  footer_copy:       "© 2024 Berghoff GmbH · All rights reserved",
+  footer_copy:       "© 2026 Berghoff GmbH · All rights reserved",
 
   /* ── Team / Contacts ─────────────────────────────────────────── */
   team_label:         "Contact Persons",
