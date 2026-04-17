@@ -8,17 +8,18 @@ window.TRANSLATIONS = {
 ══════════════════════════════════════════════════════════════ */
 de: {
   /* Navigation */
-  nav_home:          "Home",
+  nav_home:          "Startseite",
   nav_leistungen:    "Leistungen",
   nav_unternehmen:   "Unternehmen",
   nav_maschinenpark: "Maschinenpark",
   nav_karriere:      "Karriere",
+  nav_lieferant:     "Lieferant werden",
   nav_kontakt:       "Kontakt",
 
   /* Hero */
   hero_label:         "CNC-Präzisionsfertigung",
-  hero_headline:      "Komplexe Bauteile.\nPräzise gefertigt.\nZuverlässig geliefert.",
-  hero_sub:           "Berghoff fertigt hochkomplexe Präzisionsbauteile und Baugruppen für führende Unternehmen in der Halbleiter-, Luft- und Raumfahrt-, Medizin- und Energietechnik.",
+  hero_headline:      "Präzisionsbauteile\nbis 3.400 mm.\nAus einer Hand.",
+  hero_sub:           "Ihr Fertigungspartner für Halbleiter, Luft- und Raumfahrt, Medizintechnik und Energie. ISO 9001 und EN 9100 zertifiziert, Rolls-Royce approved.",
   hero_cta_primary:   "Anfrage stellen",
   hero_cta_secondary: "Leistungen ansehen",
   badge_iso:   "ISO 9001:2015",
@@ -92,8 +93,8 @@ de: {
   /* Unternehmen */
   unt_label:    "Unternehmen",
   unt_headline: "Präzisionsfertigung seit über 40 Jahren",
-  unt_text1:    "Berghoff ist ein inhabergeführtes Familienunternehmen mit zwei Produktionsstandorten in Südwestfalen. 1983 gegründet als spezialisierter Zulieferer, heute Partner für hochkomplexe Fertigungsaufgaben in anspruchsvollen Industrien.",
-  unt_text2:    "Wir übernehmen die vollständige Wertschöpfungskette: von der Planung über die Fertigung bis zur Lieferung fertig montierter Baugruppen. Kurze Reaktionszeiten, transparente Kommunikation und stabile Lieferantenbeziehungen sind die Grundlage unserer Zusammenarbeit.",
+  unt_text1:    "Berghoff ist ein inhabergeführtes Familienunternehmen mit Produktionsstandorten in Drolshagen und Wenden. Gegründet 1983, heute spezialisierter Partner für hochkomplexe Fertigungsaufgaben in der Halbleiter-, Luft- und Raumfahrt-, Medizin- und Energietechnik.",
+  unt_text2:    "Wir koordinieren die gesamte Fertigungskette: vom Rohmaterial über die Bearbeitung bis zur Lieferung als fertige Baugruppe. Unsere Kunden haben einen Ansprechpartner, keinen Koordinationsaufwand und keine Überraschungen. Seit 40 Jahren unser Modell.",
   unt_site1_label: "Hauptstandort Drolshagen",
   unt_site2_label: "Zweigwerk Wenden",
 
@@ -232,7 +233,7 @@ de: {
   mach_cta_label:       "Anforderungen besprechen",
   mach_cta_title:       "Haben Sie spezielle Anforderungen an Material oder Geometrie?",
   mach_cta_text:        "Sprechen Sie mit unserer technischen Leitung. Wir prüfen Ihre Zeichnung und beraten Sie zur optimalen Fertigungsstrategie.",
-  mach_cta_btn:         "Technische Anfrage stellen",
+  mach_cta_btn:         "Bauteil anfragen",
 
   /* ── KARRIERE PAGE ───────────────────────────────────────────── */
   kar_page_title:       "Karriere | Berghoff GmbH",
@@ -279,7 +280,7 @@ de: {
   kar_moment1_cap:      "Team-Event – Escape Room",
   kar_moment2_cap:      "Gemeinsam in der Werkstatt",
   kar_moment3_cap:      "Zusammen, nicht nebeneinander",
-  kar_moment4_cap:      "Die Lehrwerkstatt – hier fängt alles an",
+  kar_moment4_cap:      "Kaufmännisch oder technisch – bei Berghoff gibt es beides",
 
   /* ── KARRIERE – FAQ ──────────────────────────────────────────── */
   kar_faq_label:        "FAQ",
@@ -310,8 +311,8 @@ de: {
   sup_page_title:       "Lieferant werden | Berghoff GmbH",
   sup_page_meta:        "Lieferant werden bei Berghoff GmbH – Anforderungen, Qualifikationsprozess und Kontakt für potenzielle Lieferanten.",
   sup_hero_label:       "Lieferantenmanagement",
-  sup_hero_title:       "Lieferant werden",
-  sup_hero_sub:         "Wir bauen unser Lieferantennetzwerk gezielt aus und suchen leistungsstarke Partner, die unsere Anforderungen an Qualität, Liefertreue und Technologie teilen.",
+  sup_hero_title:       "Warum High-Tech-Supplier mit uns wachsen",
+  sup_hero_sub:         "Berghoff liefert an Halbleiter-, Luft- und Raumfahrt- und Medizintechnikunternehmen. Wer mit uns wächst, wächst in den anspruchsvollsten Märkten der Welt.",
   sup_req_label:        "Anforderungen",
   sup_req_title:        "Was wir von Lieferanten erwarten",
   sup_req_text:         "Als Fertigungspartner für sicherheitskritische Branchen stellen wir klare Anforderungen an unsere Lieferanten: Qualität, Termintreue, Technologie und Kostenstruktur.",
@@ -352,7 +353,7 @@ de: {
 
   /* ── INDEX – Prozess ──────────────────────────────────────────── */
   proc_label:      "Fertigungsprozess",
-  proc_headline:   "Von der Beschaffung bis zur Lieferung aus einer Hand",
+  proc_headline:   "Vom Rohling zur Baugruppe: Alles aus einer Hand",
   proc_intro:      "Berghoff übernimmt die vollständige Wertschöpfungskette: vom Rohmaterial bis zum montierten, verpackten Bauteil. Weniger Schnittstellen, höhere Zuverlässigkeit, kürzere Durchlaufzeiten.",
   proc_step1_title:"Materialbeschaffung",
   proc_step1_text: "Beschaffung von Rohmaterial und Halbzeugen direkt aus qualifizierten Lieferketten. Nach Zeichnungsvorgabe, werkstoffgeprüft und lückenlos rückverfolgbar. Ein Ansprechpartner, kein Koordinationsaufwand für Sie.",
@@ -533,12 +534,12 @@ de: {
   /* ── KARRIERE – Fachkräfte section ───────────────────────────── */
   kar_fachkraft_label:     "Ihr neuer Arbeitgeber",
   kar_fachkraft_title:     "Moderne Fertigung. Stabiles Unternehmen.",
-  kar_fachkraft_intro:     "Berghoff fertigt hochpräzise Bauteile und Baugruppen für die Halbleiter-, Luft- und Raumfahrt-, Medizin- und Energietechnik. An unseren beiden Standorten in Drolshagen und Wenden arbeiten über 200 Mitarbeiterinnen und Mitarbeiter täglich mit modernsten 5-Achs-CNC-Maschinen und Messtechnik auf höchstem Niveau.",
+  kar_fachkraft_intro:     "Berghoff fertigt hochpräzise Bauteile und Baugruppen für die Halbleiter-, Luft- und Raumfahrt-, Medizin- und Energietechnik. An unseren beiden Standorten in Drolshagen und Wenden arbeiten über 200 Mitarbeiterinnen und Mitarbeiter täglich mit modernsten 5-Achs-CNC-Maschinen und Messtechnik auf höchstem Niveau. Neben gewerblichen Stellen bieten wir auch kaufmännische und technische Bürojobs in Bereichen wie Auftragsabwicklung, Vertriebsinnendienst und Arbeitsvorbereitung.",
   kar_fachkraft_text2:     "Als inhabergeführtes Unternehmen bieten wir Ihnen langfristige Perspektiven statt kurzfristiger Projekte, klare Verantwortungsbereiche und ein kollegiales Umfeld, das auf gegenseitigem Respekt aufgebaut ist.",
 
   /* ── KARRIERE – Hero CTAs ────────────────────────────────────── */
   kar_hero_cta_ausb: "Ausbildung starten",
-  kar_hero_cta_jobs: "Stellenangebote ansehen",
+  kar_hero_cta_jobs: "Aktuelle Stellenangebote",
 
   /* ── KARRIERE – Split section ────────────────────────────────── */
   kar_split_ausb_label: "Für Schülerinnen & Schüler",
@@ -600,6 +601,14 @@ de: {
   kar_job4_title: "Mitarbeiter Qualitätssicherung / Messtechnik (m/w/d)",
   kar_job4_desc:  "Dimensionale Prüfung von Präzisionsbauteilen mit KMM (Zeiss Contura), Renishaw Equator und konventionellen Messmitteln. Erstellung von Prüfprotokollen und Erstmusterprüfberichten.",
   kar_job4_skills:["KMM / Zeiss", "EMPB nach VDA", "ISO 9001", "Prüfplanung"],
+
+  kar_job5_title: "Kaufmännischer Sachbearbeiter Auftragsabwicklung (m/w/d)",
+  kar_job5_desc:  "Eigenverantwortliche Bearbeitung von Kundenaufträgen: von der Auftragserfassung über die Terminverfolgung bis zur Lieferung. Enge Zusammenarbeit mit Vertrieb, Fertigung und Versand.",
+  kar_job5_skills:["Auftragsabwicklung", "ERP-System", "Kundenkommunikation", "SAP / ProAlpha"],
+
+  kar_job6_title: "Vertriebsinnendienst / Angebotssachbearbeiter (m/w/d)",
+  kar_job6_desc:  "Kalkulation und Erstellung von Angeboten für komplexe Fertigungsaufträge. Technisches Verständnis für Zeichnungen und Fertigungsverfahren von Vorteil. Direkter Kundenkontakt auf kaufmännischer Ebene.",
+  kar_job6_skills:["Angebotskalkulation", "Technisches Verständnis", "CRM", "B2B-Vertrieb"],
 
   /* ── KARRIERE – Ausbildung ────────────────────────────────────── */
   kar_ausb_badge_start2026: "Start 2026",
@@ -733,6 +742,7 @@ en: {
   nav_unternehmen:   "Company",
   nav_maschinenpark: "Machine Park",
   nav_karriere:      "Careers",
+  nav_lieferant:     "Become a Supplier",
   nav_kontakt:       "Contact",
 
   /* Hero */

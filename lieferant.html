@@ -21,12 +21,12 @@
     </a>
     <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
       <ul>
-        <li><a href="index.html"             data-i18n="nav_home"></a></li>
-        <li><a href="index.html#leistungen"  data-i18n="nav_leistungen"></a></li>
-        <li><a href="index.html#unternehmen" data-i18n="nav_unternehmen"></a></li>
-        <li><a href="maschinenpark.html"      data-i18n="nav_maschinenpark"></a></li>
-        <li><a href="karriere.html"           data-i18n="nav_karriere"></a></li>
-        <li><a href="index.html#kontakt" class="nav-cta" data-i18n="nav_kontakt"></a></li>
+        <li><a href="index.html"                           data-i18n="nav_home"></a></li>
+        <li><a href="index.html#unternehmen"               data-i18n="nav_unternehmen"></a></li>
+        <li><a href="maschinenpark.html"                   data-i18n="nav_maschinenpark"></a></li>
+        <li><a href="karriere.html"                        data-i18n="nav_karriere"></a></li>
+        <li><a href="lieferant.html" class="nav-active"   data-i18n="nav_lieferant"></a></li>
+        <li><a href="index.html#kontakt" class="nav-cta"  data-i18n="nav_kontakt"></a></li>
       </ul>
     </nav>
     <div class="header-tools">
@@ -79,54 +79,34 @@
 
     <!-- QLTC -->
     <div class="section-label" style="margin-top:56px;" data-i18n="sup_qltc_label"></div>
-    <div class="qltc-grid">
-      <div class="qltc-card qltc-q">
-        <div class="qltc-letter">Q</div>
-        <h3 data-i18n="sup_qltc_q_title"></h3>
-        <p data-i18n="sup_qltc_q_text"></p>
-        <ul class="qltc-list">
-          <li>ISO 9001:2015 (Pflicht)</li>
-          <li>EN 9100 für Aerospace-Teile</li>
-          <li>Vollständige Prüfprotokolle</li>
-          <li>Materialzertifikate nach EN 10204</li>
-          <li>Interne Erstprüfung vor Lieferung</li>
-        </ul>
+    <div class="qltc-compact">
+      <div class="qltc-row">
+        <div class="qltc-row-letter qltc-q">Q</div>
+        <div class="qltc-row-body">
+          <strong data-i18n="sup_qltc_q_title"></strong>
+          <span>ISO 9001:2015 Pflicht · EN 9100 für Aerospace · Vollständige Prüfprotokolle</span>
+        </div>
       </div>
-      <div class="qltc-card qltc-l">
-        <div class="qltc-letter">L</div>
-        <h3 data-i18n="sup_qltc_l_title"></h3>
-        <p data-i18n="sup_qltc_l_text"></p>
-        <ul class="qltc-list">
-          <li>Termintreue als messbare KPI</li>
-          <li>Verbindliche Auftragsbestätigung</li>
-          <li>Frühzeitige Kommunikation bei Abweichungen</li>
-          <li>JIT-Fähigkeit bei Bedarf</li>
-          <li>Flexible Losgrößen</li>
-        </ul>
+      <div class="qltc-row">
+        <div class="qltc-row-letter qltc-l">L</div>
+        <div class="qltc-row-body">
+          <strong data-i18n="sup_qltc_l_title"></strong>
+          <span>Termintreue als messbare KPI · Verbindliche Auftragsbestätigung · JIT-Fähigkeit</span>
+        </div>
       </div>
-      <div class="qltc-card qltc-t">
-        <div class="qltc-letter">T</div>
-        <h3 data-i18n="sup_qltc_t_title"></h3>
-        <p data-i18n="sup_qltc_t_text"></p>
-        <ul class="qltc-list">
-          <li>Stand der Technik in Fertigungsverfahren</li>
-          <li>Eigene Messtechnik / Qualitätsprüfung</li>
-          <li>Bereitschaft zur Prozessverbesserung</li>
-          <li>Zertifizierungserweiterung auf Anfrage</li>
-          <li>Technische Beratungsfähigkeit</li>
-        </ul>
+      <div class="qltc-row">
+        <div class="qltc-row-letter qltc-t">T</div>
+        <div class="qltc-row-body">
+          <strong data-i18n="sup_qltc_t_title"></strong>
+          <span>Stand der Technik · Eigene Messtechnik · Bereitschaft zur Prozessverbesserung</span>
+        </div>
       </div>
-      <div class="qltc-card qltc-c">
-        <div class="qltc-letter">C</div>
-        <h3 data-i18n="sup_qltc_c_title"></h3>
-        <p data-i18n="sup_qltc_c_text"></p>
-        <ul class="qltc-list">
-          <li>Wettbewerbsfähiges Preis-Leistungs-Verhältnis</li>
-          <li>Transparente Kalkulationsgrundlage</li>
-          <li>Bereitschaft zu Kostenoptimierungsprogrammen</li>
-          <li>Volumenvereinbarungen möglich</li>
-          <li>Stabile Preisentwicklung</li>
-        </ul>
+      <div class="qltc-row">
+        <div class="qltc-row-letter qltc-c">C</div>
+        <div class="qltc-row-body">
+          <strong data-i18n="sup_qltc_c_title"></strong>
+          <span>Wettbewerbsfähige Kalkulation · Transparente Preisstruktur · Volumenvereinbarungen möglich</span>
+        </div>
       </div>
     </div>
   </div>
@@ -135,40 +115,32 @@
 <!-- ═══ ZERTIFIZIERUNGEN ═════════════════════════════════════════ -->
 <section class="section section--alt" id="zertifizierungen">
   <div class="container">
-    <div class="section-header">
-      <div class="section-label" data-i18n="sup_cert_label"></div>
-      <h2 data-i18n="sup_cert_title"></h2>
-    </div>
-    <div class="cert-req-grid">
-      <div class="cert-req-card cert-req--required">
-        <div class="cert-req-label">Pflicht</div>
-        <div class="cert-req-badge">ISO 9001</div>
-        <h4>EN ISO 9001:2015</h4>
-        <p>Qualitätsmanagementsystem – Anforderungen. Gültiges Zertifikat einer akkreditierten Zertifizierungsstelle erforderlich.</p>
+    <div class="cert-summary-box">
+      <div class="cert-summary-head">
+        <div class="section-label" data-i18n="sup_cert_label"></div>
+        <h2 data-i18n="sup_cert_title"></h2>
       </div>
-      <div class="cert-req-card cert-req--conditional">
-        <div class="cert-req-label">Je nach Branche</div>
-        <div class="cert-req-badge">EN 9100</div>
-        <h4>EN 9100:2018</h4>
-        <p>Luft- und Raumfahrt-Qualitätsmanagementsystem. Erforderlich für alle Lieferanten, die Aerospace-Teile für Berghoff fertigen.</p>
-      </div>
-      <div class="cert-req-card cert-req--conditional">
-        <div class="cert-req-label">Empfohlen</div>
-        <div class="cert-req-badge">ISO 14001</div>
-        <h4>EN ISO 14001:2015</h4>
-        <p>Umweltmanagementsystem. Als Alternative oder Ergänzung zur EN 9100 – zeigt Engagement für nachhaltige Unternehmensführung.</p>
-      </div>
-      <div class="cert-req-card cert-req--optional">
-        <div class="cert-req-label">Vorteilhaft</div>
-        <div class="cert-req-badge">IATF 16949</div>
-        <h4>IATF 16949:2016</h4>
-        <p>Qualitätsstandard Automobilindustrie. Nicht zwingend, aber als Nachweis einer belastbaren QMS-Kultur positiv bewertet.</p>
-      </div>
-      <div class="cert-req-card cert-req--optional">
-        <div class="cert-req-label">Vorteilhaft</div>
-        <div class="cert-req-badge">ZfP</div>
-        <h4>EN ISO 9712 / DIN EN 473</h4>
-        <p>Zerstörungsfreie Prüfung – Qualifizierung und Zertifizierung von ZfP-Personal. Relevant für Lieferanten sicherheitskritischer Bauteile in Aerospace und Medizintechnik.</p>
+      <div class="cert-summary-pills">
+        <div class="cert-pill cert-pill--required">
+          <span class="cert-pill-badge">Pflicht</span>
+          <strong>ISO 9001:2015</strong>
+        </div>
+        <div class="cert-pill cert-pill--conditional">
+          <span class="cert-pill-badge">Aerospace</span>
+          <strong>EN 9100:2018</strong>
+        </div>
+        <div class="cert-pill">
+          <span class="cert-pill-badge">Empfohlen</span>
+          <strong>ISO 14001:2015</strong>
+        </div>
+        <div class="cert-pill">
+          <span class="cert-pill-badge">Vorteilhaft</span>
+          <strong>IATF 16949:2016</strong>
+        </div>
+        <div class="cert-pill">
+          <span class="cert-pill-badge">ZfP</span>
+          <strong>EN ISO 9712</strong>
+        </div>
       </div>
     </div>
   </div>
@@ -218,7 +190,7 @@
 </section>
 
 <!-- ═══ LIEFERANTENSELBSTAUSKUNFT ════════════════════════════════ -->
-<section class="section" id="selbstauskunft">
+<section class="section section--dark" id="selbstauskunft">
   <div class="container">
     <div class="selbst-banner">
       <div class="selbst-icon">
@@ -234,59 +206,8 @@
            class="btn btn-primary"
            target="_blank"
            rel="noopener noreferrer">
-          Lieferantenselbstauskunft ausfüllen
+          Fragebogen starten
         </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ DOKUMENTE ════════════════════════════════════════════════ -->
-<section class="section section--alt" id="dokumente">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-label" data-i18n="sup_docs_label"></div>
-      <h2 data-i18n="sup_docs_title"></h2>
-    </div>
-    <div class="docs-grid">
-      <div class="doc-card">
-        <div class="doc-icon">
-          <svg viewBox="0 0 40 40" fill="none"><path d="M9 19l6 6L31 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><rect x="4" y="4" width="32" height="32" rx="4" stroke="currentColor" stroke-width="1.8"/></svg>
-        </div>
-        <div class="doc-info">
-          <h4>Lieferantenselbstauskunft</h4>
-          <p>Online-Fragebogen zur Erfassung Ihrer Unternehmens- und Qualifikationsdaten. Basis für die Lieferantenqualifizierung.</p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdS9jOwsyiDkFslF10DnizWUmhAfBH1zaUnP6eFb09_03BjsA/viewform" class="doc-link" target="_blank" rel="noopener noreferrer">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Online-Fragebogen öffnen
-          </a>
-        </div>
-      </div>
-      <div class="doc-card">
-        <div class="doc-icon">
-          <svg viewBox="0 0 40 40" fill="none"><path d="M8 4h16l8 8v24H8V4z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M24 4v8h8" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M13 20h14M13 26h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-        </div>
-        <div class="doc-info">
-          <h4>Allgemeine Einkaufsbedingungen</h4>
-          <p>Unsere allgemeinen Einkaufsbedingungen (AEB) – rechtliche Grundlage für alle Lieferantenbeziehungen.</p>
-          <a href="#" class="doc-link">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Herunterladen (PDF)
-          </a>
-        </div>
-      </div>
-      <div class="doc-card">
-        <div class="doc-icon">
-          <svg viewBox="0 0 40 40" fill="none"><path d="M8 4h16l8 8v24H8V4z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M24 4v8h8" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M13 20h14M13 26h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-        </div>
-        <div class="doc-info">
-          <h4>Qualitätssicherungsvereinbarung (QSV)</h4>
-          <p>Detaillierte Anforderungen an Qualität, Prüfung, Dokumentation und Lieferbedingungen für unsere Lieferanten.</p>
-          <a href="#" class="doc-link">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Herunterladen (PDF)
-          </a>
-        </div>
       </div>
     </div>
   </div>
@@ -344,26 +265,17 @@
           </div>
         </div>
         <div class="form-group">
-          <label for="s-certs">Vorliegende Zertifizierungen</label>
-          <div class="checkbox-group">
-            <label class="checkbox-label"><input type="checkbox" name="cert_9001" /><span>ISO 9001</span></label>
-            <label class="checkbox-label"><input type="checkbox" name="cert_9100" /><span>EN 9100</span></label>
-            <label class="checkbox-label"><input type="checkbox" name="cert_14001" /><span>ISO 14001</span></label>
-            <label class="checkbox-label"><input type="checkbox" name="cert_iatf" /><span>IATF 16949</span></label>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="s-competence">Kernkompetenzen / Fertigungsverfahren</label>
-          <input type="text" id="s-competence" name="competence" placeholder="z.B. CNC-Drehen, Oberflächentechnik, Schweißen ..." />
-        </div>
-        <div class="form-group">
           <label for="s-message">Kurzbeschreibung Ihres Unternehmens</label>
           <textarea id="s-message" name="message" rows="4" placeholder="Bitte beschreiben Sie kurz Ihr Leistungsspektrum, Ihre Kapazitäten und warum eine Zusammenarbeit mit Berghoff für Sie interessant ist."></textarea>
+        </div>
+        <div class="form-group">
+          <label for="s-upload">Dokument anhängen <span class="form-note">(STEP, STP, PDF, DXF, NDA – max. 20 MB)</span></label>
+          <input type="file" id="s-upload" name="upload" accept=".step,.stp,.pdf,.dxf,.dwg,.doc,.docx" class="file-input" />
         </div>
         <div class="form-group form-group--check">
           <label class="checkbox-label">
             <input type="checkbox" name="privacy" required />
-            <span>Ich habe die Datenschutzerklärung gelesen und stimme der Verarbeitung meiner Daten zu. *</span>
+            <span>Ich habe die <a href="datenschutzerklaerung.html" target="_blank" rel="noopener">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zu. *</span>
           </label>
         </div>
         <button type="submit" class="btn btn-primary">Anfrage absenden</button>
