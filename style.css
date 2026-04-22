@@ -3780,3 +3780,135 @@ input.field-error, textarea.field-error {
   /* Checkbox group: allow wrap with full-width items */
   .checkbox-group { gap: 8px; }
 }
+
+/* ================================================================
+   MOBILE OPTIMIZATION – comprehensive additions
+   Only fills genuine gaps; does not override existing rules above.
+   ================================================================ */
+
+/* ── Respect reduced-motion preference ──────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  /* Reveal animations: show immediately */
+  .reveal { opacity: 1 !important; transform: none !important; }
+  /* Hero scroll indicator: no bounce */
+  .hero-scroll { animation: none; }
+}
+
+/* ── Tablet/large-phone ≤ 900px ─────────────────────────────────── */
+@media (max-width: 900px) {
+  /* Standorte: stack cards vertically */
+  .standorte-layout { grid-template-columns: 1fr; }
+  .standort-primary  { min-height: 280px; }
+  .standort-secondary {
+    padding: 28px 24px;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    background: var(--white);
+  }
+}
+
+/* ── Mobile ≤ 768px – layout & visual rethink ───────────────────── */
+@media (max-width: 768px) {
+
+  /* HERO: strip noise, let headline breathe */
+  .hero-slogan { display: none; }
+  .hero-label  { font-size: 0.65rem; margin-bottom: 12px; }
+  .hero-badges { gap: 8px; }
+  .badge       { font-size: 0.72rem; padding: 5px 10px; gap: 5px; }
+
+  /* PROCESS: hide decorative image – the numbered steps are enough */
+  .svip-visual { display: none; }
+  .svip-layout { grid-template-columns: 1fr; gap: 0; }
+  .svip-steps  { max-width: 100%; }
+  .svip-trademark { margin-top: 32px; flex-direction: column; gap: 12px; }
+  .svip-trademark img { height: 24px; }
+
+  /* CULTURE MOMENTS: 2×2 grid instead of 4-in-a-row */
+  .culture-moments { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .culture-moment img { aspect-ratio: 1 / 1; }
+
+  /* MASCHINENPARK JUMP NAV: horizontal pill-scroll, no wrapping */
+  .mach-jump-nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+    margin-bottom: -4px;
+    /* hide scrollbar visually */
+    scrollbar-width: none;
+  }
+  .mach-jump-nav::-webkit-scrollbar { display: none; }
+  .mach-jump-nav a {
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    white-space: nowrap;
+  }
+
+  /* MACHINE CARDS: 2-col at tablet width (better than 1-col) */
+  .mach-cards { grid-template-columns: 1fr 1fr; }
+
+  /* MACHINE CAT CTA: full-width centred button */
+  .mach-cat-cta { justify-content: center; }
+  .mach-cat-cta .btn { width: 100%; max-width: 360px; justify-content: center; }
+
+  /* TEAM: smaller avatar to save vertical space */
+  .team-avatar { width: 64px; height: 64px; flex-shrink: 0; }
+  .team-card   { padding: 16px; gap: 14px; }
+
+  /* PHOTO STRIP: tighter text */
+  .photo-strip-kicker  { font-size: 0.65rem; margin-bottom: 8px; }
+  .photo-strip-headline { font-size: clamp(1rem, 4vw, 1.4rem); }
+
+  /* TEASER CARDS: slightly less tall on mobile */
+  .teaser-card { min-height: 260px; }
+
+  /* CAREER APPLY STEPS: stack number + text cleanly */
+  .apply-steps { gap: 24px; }
+
+  /* LIEFERANT HERO: reduce padding */
+  .sup-hero-inner { gap: 24px; }
+}
+
+/* ── Small phone ≤ 480px – aggressive trim ──────────────────────── */
+@media (max-width: 480px) {
+
+  /* HERO: badges clutter small screens, remove them */
+  .hero-badges { display: none; }
+  .hero-content { padding-top: 72px; padding-bottom: 48px; }
+
+  /* MACHINE CARDS: back to single column at narrow widths */
+  .mach-cards { grid-template-columns: 1fr; }
+
+  /* MACHINE CARD SPECS: 1-col at very small */
+  .mach-card-specs { grid-template-columns: 1fr; gap: 6px; }
+
+  /* CULTURE MOMENTS: keep 2×2, tighten gap */
+  .culture-moments { gap: 6px; }
+
+  /* SVIP TRADEMARK: hide logo, keep text */
+  .svip-trademark img { display: none; }
+  .svip-step-num { font-size: 1.4rem; min-width: 36px; }
+
+  /* TEAM: at very small, avatar above info */
+  .team-card { flex-direction: row; align-items: center; }
+  .team-avatar { width: 52px; height: 52px; }
+
+  /* TEASER CARDS: shorter, scroll through */
+  .teaser-card { min-height: 220px; }
+
+  /* ERROR PAGE: stack CTAs */
+  .error-actions { flex-direction: column; width: 100%; }
+  .error-actions .btn { width: 100%; justify-content: center; }
+  .error-links-grid { gap: 8px; }
+
+  /* FOOTER: collapse to single column */
+  .footer-links { grid-template-columns: 1fr; }
+  .footer-bottom-inner { text-align: center; }
+}
