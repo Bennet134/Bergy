@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero V1 – Split Screen</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { margin: 0; }
+
+    .hero-v1 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 100vh;
+    }
+
+    /* LEFT: dark text panel */
+    .hero-v1-left {
+      background: #0b0e13;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 80px 64px 80px 72px;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-v1-left::after {
+      content: '';
+      position: absolute;
+      right: -40px;
+      top: 0;
+      bottom: 0;
+      width: 80px;
+      background: #0b0e13;
+      clip-path: polygon(0 0, 0 100%, 100% 100%);
+      z-index: 2;
+    }
+
+    .hero-v1-kicker {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #009fe3;
+      margin-bottom: 20px;
+    }
+    .hero-v1-slogan {
+      font-size: 0.85rem;
+      font-weight: 400;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 0.08em;
+      margin-bottom: 16px;
+    }
+    .hero-v1-slogan em {
+      color: rgba(255,255,255,0.7);
+      font-style: normal;
+    }
+    .hero-v1-headline {
+      font-size: clamp(2rem, 3.2vw, 3rem);
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.15;
+      margin: 0 0 20px;
+    }
+    .hero-v1-headline span {
+      color: #009fe3;
+    }
+    .hero-v1-sub {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.75;
+      max-width: 440px;
+      margin-bottom: 36px;
+    }
+    .hero-v1-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .hero-v1-certs {
+      margin-top: 56px;
+      padding-top: 32px;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .hero-v1-cert {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.35);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .hero-v1-cert::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #009fe3;
+      flex-shrink: 0;
+    }
+
+    /* RIGHT: factory image */
+    .hero-v1-right {
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-v1-right img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    .hero-v1-right-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(11,14,19,0.3) 0%, transparent 60%);
+    }
+  </style>
+</head>
+<body>
+
+<div class="hero-v1">
+  <div class="hero-v1-left">
+    <div class="hero-v1-kicker">CNC-Präzisionsfertigung · Seit 1983</div>
+    <div class="hero-v1-slogan">pure performance · <em>absolute precision</em></div>
+    <h1 class="hero-v1-headline">
+      Präzision,<br>die <span>Industrien</span><br>bewegt.
+    </h1>
+    <p class="hero-v1-sub">
+      CNC-Fertigung auf höchstem Niveau, für Halbleiter-, Luft- und Raumfahrt-, Medizin- und Energietechnik. Zwei Werke. Ein Anspruch.
+    </p>
+    <div class="hero-v1-actions">
+      <a href="index.html#kontakt" class="btn btn-primary">Anfrage stellen</a>
+      <a href="index.html#leistungen" class="btn btn-outline" style="border-color:rgba(255,255,255,0.2);color:#fff;">Leistungen ansehen</a>
+    </div>
+    <div class="hero-v1-certs">
+      <span class="hero-v1-cert">ISO 9001</span>
+      <span class="hero-v1-cert">EN 9100</span>
+      <span class="hero-v1-cert">Rolls-Royce Approved</span>
+    </div>
+  </div>
+
+  <div class="hero-v1-right">
+    <img src="Images/Start/Hallenbild-2-Berghoff-2022.jpg.jpeg" alt="Berghoff Fertigungshalle" />
+    <div class="hero-v1-right-overlay"></div>
+  </div>
+</div>
+
+</body>
+</html>

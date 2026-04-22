@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hero V2 – Bold Typography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { margin: 0; }
+
+    .hero-v2 {
+      min-height: 100vh;
+      background: #070a0f;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      overflow: hidden;
+    }
+
+    /* Full bleed image, very subtle */
+    .hero-v2-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('Images/Start/Drohnenshot2026.JPG');
+      background-size: cover;
+      background-position: center 30%;
+      opacity: 0.18;
+    }
+
+    /* Accent line top */
+    .hero-v2-topbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: #009fe3;
+    }
+
+    /* Large background word */
+    .hero-v2-ghost {
+      position: absolute;
+      bottom: -0.1em;
+      right: -0.05em;
+      font-size: clamp(12rem, 22vw, 22rem);
+      font-weight: 700;
+      color: rgba(255,255,255,0.025);
+      line-height: 1;
+      letter-spacing: -0.04em;
+      pointer-events: none;
+      user-select: none;
+      white-space: nowrap;
+    }
+
+    .hero-v2-content {
+      position: relative;
+      z-index: 2;
+      padding: 120px 72px 80px;
+      max-width: 1200px;
+    }
+
+    .hero-v2-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #009fe3;
+      margin-bottom: 32px;
+    }
+    .hero-v2-kicker::before {
+      content: '';
+      width: 32px;
+      height: 2px;
+      background: #009fe3;
+    }
+
+    .hero-v2-headline {
+      font-size: clamp(3.5rem, 7vw, 7rem);
+      font-weight: 700;
+      color: #fff;
+      line-height: 1.0;
+      letter-spacing: -0.03em;
+      margin: 0 0 32px;
+    }
+    .hero-v2-headline .accent {
+      color: #009fe3;
+      display: block;
+    }
+
+    .hero-v2-bottom {
+      display: flex;
+      align-items: flex-end;
+      gap: 48px;
+      flex-wrap: wrap;
+    }
+    .hero-v2-sub {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.45);
+      line-height: 1.75;
+      max-width: 400px;
+      flex: 1;
+      min-width: 280px;
+    }
+    .hero-v2-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 16px;
+    }
+    .hero-v2-actions {
+      display: flex;
+      gap: 12px;
+    }
+    .hero-v2-certs {
+      display: flex;
+      gap: 16px;
+    }
+    .hero-v2-cert {
+      font-size: 0.68rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.25);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,0.1);
+      padding: 5px 10px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="hero-v2">
+  <div class="hero-v2-bg"></div>
+  <div class="hero-v2-topbar"></div>
+  <div class="hero-v2-ghost">BERGHOFF</div>
+
+  <div class="hero-v2-content">
+    <div class="hero-v2-kicker">CNC-Präzisionsfertigung · Seit 1983</div>
+    <h1 class="hero-v2-headline">
+      Gebaut für<br>
+      <span class="accent">0,002 mm.</span>
+    </h1>
+    <div class="hero-v2-bottom">
+      <p class="hero-v2-sub">
+        Berghoff fertigt CNC-Präzisionsteile und Baugruppen für die anspruchsvollsten Industrien der Welt. Halbleiter, Luft- und Raumfahrt, Medizintechnik.
+      </p>
+      <div class="hero-v2-right">
+        <div class="hero-v2-actions">
+          <a href="index.html#kontakt" class="btn btn-primary">Anfrage stellen</a>
+          <a href="index.html#leistungen" class="btn btn-outline" style="border-color:rgba(255,255,255,0.2);color:#fff;">Leistungen</a>
+        </div>
+        <div class="hero-v2-certs">
+          <span class="hero-v2-cert">ISO 9001</span>
+          <span class="hero-v2-cert">EN 9100</span>
+          <span class="hero-v2-cert">RR Approved</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

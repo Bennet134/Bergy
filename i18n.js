@@ -1,4 +1,4 @@
-/* ═══════════════════════════════════════════════════════════════
+﻿/* ═══════════════════════════════════════════════════════════════
    BERGHOFF GMBH – TRANSLATIONS  (DE / EN)
    ═══════════════════════════════════════════════════════════════ */
 window.TRANSLATIONS = {
@@ -748,7 +748,7 @@ en: {
   /* Hero */
   hero_label:         "pure performance – absolute precision",
   hero_headline:      "Complex Parts.\nMachined with Precision.\nDelivered Reliably.",
-  hero_sub:           "Berghoff is your manufacturing partner for highly complex precision components and assemblies — for leading companies in semiconductor, aerospace, medical and energy technology.",
+  hero_sub:           "Berghoff is your manufacturing partner for highly complex precision components and assemblies, serving leading companies in semiconductor, aerospace, medical and energy technology.",
   hero_cta_primary:   "Request a Quote",
   hero_cta_secondary: "View Services",
   badge_iso:   "ISO 9001:2015",
@@ -764,10 +764,10 @@ en: {
   /* Leistungen */
   lei_label:    "Services",
   lei_headline: "Manufacturing from a Single Source",
-  lei_intro:    "From individual components to assembled units, we offer the full spectrum of CNC precision manufacturing — with in-house quality assurance and coordinated supply chain.",
+  lei_intro:    "From individual components to assembled units, we offer the full spectrum of CNC precision manufacturing, with in-house quality assurance and coordinated supply chain.",
 
   lei1_title: "5-Axis CNC Milling",
-  lei1_text:  "Simultaneous 5-axis machining for the most complex geometries in a single setup — minimising re-clamping errors and ensuring reproducible dimensional accuracy.",
+  lei1_text:  "Simultaneous 5-axis machining for the most complex geometries in a single setup, minimising re-clamping errors and ensuring reproducible dimensional accuracy.",
   lei1_list:  ["Simultaneous 5-axis machining", "Tolerances down to ±0.002 mm", "Aluminium, titanium, stainless steel, nickel alloys", "Parts up to approx. 2,000 mm in length"],
 
   lei2_title: "CNC Turning",
@@ -775,7 +775,7 @@ en: {
   lei2_list:  ["Turning from ø 2 mm to ø 600 mm", "Turn-mill combination (6-axis)", "Swiss-type turning for slender profiles", "Hard turning up to 65 HRC"],
 
   lei3_title: "Assemblies & Integration",
-  lei3_text:  "Complete assemblies and modules from a single source — mechanical, electromechanical and, on request, cleanroom-compliant.",
+  lei3_text:  "Complete assemblies and modules from a single source: mechanical, electromechanical and, on request, cleanroom-compliant.",
   lei3_list:  ["Mechanical and electromechanical assembly", "Cleanroom-compatible assemblies (from 2026: ISO 6)", "Functional testing to customer specification", "Full documentation"],
 
   lei4_title: "Cleanroom Manufacturing",
@@ -783,10 +783,10 @@ en: {
   lei4_list:  ["Cleanroom to ISO Class 6", "Ultrasonic cleaning and vacuum degassing", "Helium leak testing and residual gas analysis", "Cleanroom-compliant packaging"],
 
   lei5_title: "Complete Solutions",
-  lei5_text:  "Raw material, heat treatment, surface finishing, cleaning — we coordinate the entire process chain and deliver finished solutions.",
+  lei5_text:  "Raw material, heat treatment, surface finishing, cleaning: we coordinate the entire process chain and deliver finished solutions the entire process chain and deliver finished solutions.",
   lei5_list:  ["Material procurement and certificates", "Electron beam welding, vacuum soldering", "Special surface treatments and coatings", "Delivery as finished assembly"],
 
-  lei6_title: "Your Component — Our Responsibility",
+  lei6_title: "Your Component. Our Responsibility.",
   lei6_text:  "Send us your drawing or CAD file. We assess manufacturability and provide a technically sound quote promptly.",
   lei6_cta:   "Request a Quote",
 
@@ -800,7 +800,7 @@ en: {
   bra1_tags:  ["EUV Lithography", "Vacuum Technology", "Wafer Handling", "Optical Systems"],
 
   bra2_title: "Aerospace",
-  bra2_text:  "Safety-critical components to EN 9100 for structural, hydraulic and propulsion systems — in nickel alloys, titanium and composite materials.",
+  bra2_text:  "Safety-critical components to EN 9100 for structural, hydraulic and propulsion systems, in nickel alloys, titanium and composite materials.",
   bra2_tags:  ["EN 9100", "Structural Parts", "Hydraulics", "Titanium & Inconel"],
 
   bra3_title: "Medical Technology",
@@ -808,27 +808,27 @@ en: {
   bra3_tags:  ["Implants", "Instruments", "Cleanroom-Ready", "CoCr / Titanium"],
 
   bra4_title: "Pumps & Extruders",
-  bra4_text:  "Precision components for metering pumps, extruders and processing equipment — meeting the highest requirements for dimensional accuracy, surface finish and smooth running.",
+  bra4_text:  "Precision components for metering pumps, extruders and processing equipment, meeting the highest requirements for dimensional accuracy, surface finish and smooth running.",
   bra4_tags:  ["Metering Technology", "Extruder Parts", "Screw & Gear Elements", "High-Pressure"],
 
   bra5_title: "Energy Technology",
-  bra5_text:  "Components for gas and steam turbines, generators and hydrogen systems — designed for extreme temperatures, mechanical loads and long service life.",
+  bra5_text:  "Components for gas and steam turbines, generators and hydrogen systems, designed for extreme temperatures, mechanical loads and long service life.",
   bra5_tags:  ["Gas Turbines", "H₂ Systems", "High-Temp Materials", "Generators"],
 
   bra6_title: "Oil & Gas",
-  bra6_text:  "Robust precision parts for onshore and offshore installations, pipelines, compressors and LNG infrastructure — manufactured reliably to international standards.",
+  bra6_text:  "Robust precision parts for onshore and offshore installations, pipelines, compressors and LNG infrastructure, manufactured reliably to international standards.",
   bra6_tags:  ["Offshore & Onshore", "Compressors", "LNG", "Pipeline Infrastructure"],
 
   /* Unternehmen */
   unt_label:    "Company",
   unt_headline: "40+ Years of Precision by Conviction",
   unt_text1:    "Berghoff is a family-owned company with two production sites in Südwestfalen, Germany. What started in 1983 as a specialist supplier has grown into an internationally sought-after partner for highly complex manufacturing tasks in demanding industries.",
-  unt_text2:    "We see ourselves as a strategic manufacturing partner across our customers' entire value chain — from planning and production through to delivery of fully assembled modules. Short response times, transparent communication and long-standing supplier relationships are the foundation of our partnerships.",
+  unt_text2:    "We see ourselves as a strategic manufacturing partner across our customers' entire value chain, from planning and production through to delivery of fully assembled modules. Short response times, transparent communication and long-standing supplier relationships are the foundation of our partnerships.",
   unt_site1_label: "Main Site Drolshagen",
   unt_site2_label: "Branch Wenden",
 
   unt_p1_title: "Quality",
-  unt_p1_text:  "Manufacturing quality that is measurable. Every component is verified by our in-house metrology — not just spot-checked.",
+  unt_p1_text:  "Manufacturing quality that is measurable. Every component is verified by our in-house metrology, not just spot-checked.",
   unt_p2_title: "Logistics",
   unt_p2_text:  "Optimised lead times, just-in-time delivery and transparent capacity planning. Delivery commitments are obligations.",
   unt_p3_title: "Technology",
@@ -838,7 +838,7 @@ en: {
 
   /* Qualität */
   qual_label:    "Quality & Certification",
-  qual_headline: "Quality is not a promise — it is verifiable",
+  qual_headline: "Quality is not a promise. It is verifiable.",
   qual_intro:    "Our quality management system is multiply certified and regularly audited externally. Full traceability of all materials and manufacturing steps is standard.",
 
   cert1_title: "ISO 9001:2015",
@@ -893,7 +893,7 @@ en: {
   form_subj3:           "Supplier Enquiry",
   form_subj4:           "Careers / Application",
   form_message:         "Your Message *",
-  form_message_ph:      "Please briefly describe your enquiry — quantity, material, tolerance class or other relevant details.",
+  form_message_ph:      "Please briefly describe your enquiry: quantity, material, tolerance class or other relevant details.",
   form_privacy:         "I have read the privacy policy and consent to the processing of my data to handle my enquiry. *",
   form_submit:          "Send Enquiry",
   form_success_msg:     "Thank you! Your message has been received. We will get back to you within 48 hours.",
@@ -914,7 +914,7 @@ en: {
   /* ── Team / Contacts ─────────────────────────────────────────── */
   team_label:         "Contact Persons",
   team_headline:      "Your Contacts at Berghoff",
-  team_intro:         "Reach the right person directly — by phone or email.",
+  team_intro:         "Reach the right person directly, by phone or email.",
   team_grp_zentrale:  "Head Office",
   team_grp_management:"Management",
   team_grp_leads:     "Department Heads",
@@ -930,7 +930,7 @@ en: {
   mach_page_meta:       "Modern machine park for CNC precision manufacturing: 5-axis machining centres, turn-mill centres, grinding machines and metrology at Berghoff GmbH.",
   mach_hero_label:      "Technology & Infrastructure",
   mach_hero_title:      "Machine Park",
-  mach_hero_sub:        "State-of-the-art CNC technology, climate-controlled production halls and fully integrated metrology — the foundation for precision that is reproducible.",
+  mach_hero_sub:        "State-of-the-art CNC technology, climate-controlled production halls and fully integrated metrology: the foundation for precision that is reproducible.",
   mach_intro_label:     "Overview",
   mach_intro_title:     "Best-in-Class Production Conditions",
   mach_intro_text:      "Our machine park is continuously expanded and kept at the current state of the art. All halls are climate-controlled and metrology is integrated close to the process. The networking of our CNC machines enables flexible capacity planning and high utilisation efficiency.",
@@ -949,7 +949,7 @@ en: {
   mach_detail_notes:    "Notes",
   mach_cta_label:       "Discuss Your Requirements",
   mach_cta_title:       "Special requirements for material or geometry?",
-  mach_cta_text:        "Talk to our technical team — we will review your drawing and advise you on the optimal manufacturing strategy.",
+  mach_cta_text:        "Talk to our technical team. We will review your drawing and advise you on the optimal manufacturing strategy.",
   mach_cta_btn:         "Submit a Technical Enquiry",
 
   /* ── KARRIERE PAGE ───────────────────────────────────────────── */
@@ -960,7 +960,7 @@ en: {
   kar_hero_sub:         "We are looking for skilled professionals and talented newcomers who combine craftsmanship with technical ambition. Owner-managed, collegial, with real development prospects.",
   kar_jobs_label:       "Open Positions",
   kar_jobs_title:       "Current Job Openings",
-  kar_jobs_text:        "Our current job openings are listed on our external careers platform. Apply directly — straightforward and without registration.",
+  kar_jobs_text:        "Our current job openings are listed on our external careers platform. Apply directly. No registration required..",
   kar_jobs_btn:         "View All Positions",
   kar_jobs_note:        "No suitable position? We welcome unsolicited applications at any time: karriere@berghoff.eu",
   kar_ausb_label:       "Apprenticeships",
@@ -988,41 +988,41 @@ en: {
   /* ── KARRIERE – KULTUR ───────────────────────────────────────── */
   kar_kultur_label:     "Our Culture",
   kar_kultur_title:     "What it's really like to work with us",
-  kar_kultur_intro:     "No corporate machinery. No anonymous departments. Just a company where people know each other — and look out for one another.",
-  kar_kultur_text1:     "The company has been owner-managed for over 40 years. Ulrich and Markus Berghoff are in the building every day, know most colleagues by first name, and make decisions quickly. There's no corporate parent here — just a family that takes its craft seriously.",
-  kar_kultur_text2:     "The shops in Drolshagen and Wenden are compact enough that people actually know each other. When something's wrong on a 5-axis machine, the NC programmer comes over in person — not after three escalation steps. Problems get solved directly, not passed along.",
-  kar_kultur_text3:     "New starters are properly introduced, not thrown in at the deep end. Apprentices work on real machines from day one. Those who want responsibility get it. People who feel at home tend to stay — many colleagues have been here for ten, twenty years.",
-  kar_kultur_quote:     "\"I was kept on straight after my apprenticeship and I've been here nine years now. The atmosphere is different from other places — people help each other, even when it's not strictly their job.\"",
-  kar_kultur_quote_cite:"— CNC machinist, Drolshagen site",
+  kar_kultur_intro:     "No corporate machinery. No anonymous departments. Just a company where people know each other and look out for one another.",
+  kar_kultur_text1:     "The company has been owner-managed for over 40 years. Ulrich and Markus Berghoff are in the building every day, know most colleagues by first name, and make decisions quickly. There's no corporate parent here. Just a family that takes its craft seriously.",
+  kar_kultur_text2:     "The shops in Drolshagen and Wenden are compact enough that people actually know each other. When something's wrong on a 5-axis machine, the NC programmer comes over in person, not after three escalation steps. Problems get solved directly, not passed along.",
+  kar_kultur_text3:     "New starters are properly introduced, not thrown in at the deep end. Apprentices work on real machines from day one. Those who want responsibility get it. People who feel at home tend to stay. Many colleagues have been here for ten, twenty years.",
+  kar_kultur_quote:     "\"I was kept on straight after my apprenticeship and I've been here nine years now. The atmosphere is different from other places. People help each other, even when it's not strictly their job.\"",
+  kar_kultur_quote_cite:"CNC machinist, Drolshagen site",
   kar_moment1_cap:      "Team event – Escape Room",
   kar_moment2_cap:      "Together in the workshop",
   kar_moment3_cap:      "Shoulder to shoulder",
-  kar_moment4_cap:      "The training workshop — where it all begins",
+  kar_moment4_cap:      "The training workshop, where it all begins",
 
   /* ── KARRIERE – FAQ ──────────────────────────────────────────── */
   kar_faq_label:        "FAQ",
   kar_faq_title:        "Frequently Asked Questions",
-  kar_faq_intro:        "The questions applicants ask us most often — with honest answers.",
+  kar_faq_intro:        "The questions applicants ask us most often, with honest answers.",
   kar_faq1_q:           "What documents do I need to apply?",
-  kar_faq1_a:           "A cover letter, CV and your last two school reports — that's all. If you're not sure where to start, just send us an informal email. We'll get back to you.",
+  kar_faq1_a:           "A cover letter, CV and your last two school reports. That's all. If you're not sure where to start, just send us an informal email. We'll get back to you.",
   kar_faq2_q:           "Can I do a taster day before starting an apprenticeship?",
-  kar_faq2_a:           "Yes, absolutely. Taster days are explicitly encouraged — they're just as useful for us as they are for you. Just get in touch with Christoph Dömer.",
+  kar_faq2_a:           "Yes, absolutely. Taster days are explicitly encouraged. They're just as useful for us as they are for you. Just get in touch with Christoph Dömer.",
   kar_faq3_q:           "What will I earn during my apprenticeship?",
   kar_faq3_a:           "Between €1,000 and €1,400 per month, depending on the year and occupation. On top of that there are bonus payments, a travel allowance and other benefits.",
   kar_faq4_q:           "Is it possible to shorten the apprenticeship?",
-  kar_faq4_a:           "Yes — with very good grades at vocational school and strong performance at work, a reduction of up to 6 months is possible. We actively support this.",
+  kar_faq4_a:           "Yes, with very good grades at vocational school and strong performance at work, a reduction of up to 6 months is possible. We actively support this.",
   kar_faq5_q:           "Will I be kept on after completing my apprenticeship?",
   kar_faq5_a:           "In almost all cases, yes. Our retention rate is 95%. Anyone who completes their training successfully and fits the team will be offered a permanent contract.",
   kar_faq6_q:           "What school qualifications are required?",
   kar_faq6_a:           "For technical apprenticeships, at least a Hauptschulabschluss, preferably Mittlere Reife. For commercial apprenticeships, Realschulabschluss. For logistics, a solid Hauptschulabschluss is sufficient.",
   kar_faq7_q:           "How long until I hear back?",
-  kar_faq7_a:           "Usually within two weeks — often sooner. Applications submitted by the end of January have the best chance of securing one of the apprenticeship places.",
+  kar_faq7_a:           "Usually within two weeks, often sooner. Applications submitted by the end of January have the best chance of securing one of the apprenticeship places.",
   kar_faq8_q:           "What working hours apply at Berghoff?",
   kar_faq8_a:           "Standard hours are 35 per week on day shift. Some areas operate early and late shifts. Overtime is compensated financially or as time off in lieu.",
   kar_faq9_q:           "Do you offer school work placements?",
-  kar_faq9_a:           "Yes. School placements are possible and explicitly welcome — ideally two to three weeks. It gives you a genuine feel for the work. Contact Christoph Dömer by email.",
+  kar_faq9_a:           "Yes. School placements are possible and explicitly welcome, ideally two to three weeks. It gives you a genuine feel for the work. Contact Christoph Dömer by email.",
   kar_faq10_q:          "What makes Berghoff stand out as an employer?",
-  kar_faq10_a:          "Short decision chains, real responsibility and a team that has each other's backs. We're not a corporation — ideas are heard directly, decisions made quickly. And if you want to grow, you'll find the room to do it here.",
+  kar_faq10_a:          "Short decision chains, real responsibility and a team that has each other's backs. We're not a corporation. Ideas are heard directly, decisions made quickly. And if you want to grow, you'll find the room to do it here.",
 
   /* ── LIEFERANT PAGE ──────────────────────────────────────────── */
   sup_page_title:       "Become a Supplier | Berghoff GmbH",
@@ -1032,7 +1032,7 @@ en: {
   sup_hero_sub:         "We are actively expanding our supplier network and looking for high-performing partners who share our standards for quality, delivery reliability and technology.",
   sup_req_label:        "Requirements",
   sup_req_title:        "What We Expect from Suppliers",
-  sup_req_text:         "As a manufacturing partner for safety-critical industries, we set clear requirements for our suppliers — in quality, on-time delivery, technology and cost structure.",
+  sup_req_text:         "As a manufacturing partner for safety-critical industries, we set clear requirements for our suppliers: in quality, on-time delivery, technology and cost structure.",
   sup_qltc_label:       "Our QLTC Criteria",
   sup_qltc_q_title:     "Q – Quality",
   sup_qltc_q_text:      "Certified QMS to ISO 9001 (minimum requirement). For aerospace parts: EN 9100. Full traceability and inspection records.",
@@ -1056,19 +1056,19 @@ en: {
 
   /* ── INDEX – Prozess ──────────────────────────────────────────── */
   proc_label:      "Manufacturing Process",
-  proc_headline:   "From procurement to delivery — all from a single source",
-  proc_intro:      "Fewer interfaces. Higher reliability. Shorter lead times. Berghoff manages the entire value chain — from raw material to assembled, packaged component.",
+  proc_headline:   "From procurement to delivery, all from a single source",
+  proc_intro:      "Fewer interfaces. Higher reliability. Shorter lead times. Berghoff manages the entire value chain, from raw material to assembled, packaged component.",
   proc_step1_title:"Material Procurement",
-  proc_step1_text: "Sourcing of raw materials and semi-finished goods directly from qualified supply chains — to drawing specification, material-tested and fully traceable. One point of contact, no coordination overhead for you.",
+  proc_step1_text: "Sourcing of raw materials and semi-finished goods directly from qualified supply chains, to drawing specification, material-tested and fully traceable. One point of contact, no coordination overhead for you.",
   proc_step2_title:"Manufacturing & Machining",
-  proc_step2_text: "CNC turning, milling, grinding and metrology — all in-house at our plants in Drolshagen and Wenden. Complex tolerances, documented inspection records, reproducible quality.",
+  proc_step2_text: "CNC turning, milling, grinding and metrology, all in-house at our plants in Drolshagen and Wenden. Complex tolerances, documented inspection records, reproducible quality.",
   proc_step3_title:"Assembly & Delivery",
-  proc_step3_text: "Complete assembly up to module level, cleanroom-compliant packaging to cleanliness class — on time, delivered directly to your site or production line.",
-  proc_trademark:  "The <strong>3SVIP®</strong> (3-Step Vertical Integration Process) is the systematic approach with which Berghoff coordinates and manages the entire manufacturing chain in-house — for maximum transparency and minimum risk on your side.",
+  proc_step3_text: "Complete assembly up to module level, cleanroom-compliant packaging to cleanliness class, on time, delivered directly to your site or production line.",
+  proc_trademark:  "The <strong>3SVIP®</strong> (3-Step Vertical Integration Process) is the systematic approach with which Berghoff coordinates and manages the entire manufacturing chain in-house, for maximum transparency and minimum risk on your side.",
 
   /* ── INDEX – Photo strip ──────────────────────────────────────── */
   strip_kicker:    "Berghoff GmbH · Drolshagen & Wenden",
-  strip_headline:  "<em>40+ years</em> of precision manufacturing —\ntwo sites, <em>one quality standard</em>",
+  strip_headline:  "<em>40+ years</em> of precision manufacturing.\nTwo sites, <em>one quality standard</em>",
   kon_hours_opening: "Mon – Fri · 07:00 – 16:00 (CET)",
 
   /* ── MASCHINENPARK – facts ────────────────────────────────────── */
@@ -1256,15 +1256,15 @@ en: {
   kar_ben1_title: "iPad at the start of your apprenticeship",
   kar_ben1_text:  "Every apprentice receives an iPad at the start for digital learning materials and modern training support.",
   kar_ben2_title: "30 days annual leave",
-  kar_ben2_text:  "Even as an apprentice you get 30 days of annual leave per calendar year — flexible to plan at short notice.",
+  kar_ben2_text:  "Even as an apprentice you get 30 days of annual leave per calendar year, flexible to plan at short notice.",
   kar_ben3_title: "Learning materials included",
   kar_ben3_text:  "Costs for textbooks, learning materials and work supplies are covered entirely by the company.",
   kar_ben4_title: "Capital-forming benefits",
   kar_ben4_text:  "We contribute to a capital-forming savings plan and support you in building company pension provision.",
   kar_ben5_title: "Erasmus exchange",
-  kar_ben5_text:  "International experience through the Erasmus programme — e.g. a placement abroad in Europe (past experience: Finland).",
+  kar_ben5_text:  "International experience through the Erasmus programme, e.g. a placement abroad in Europe (past experience: Finland).",
   kar_ben6_title: "Modern machine park",
-  kar_ben6_text:  "Training on the latest CNC machines from leading manufacturers — you learn hands-on with the same equipment used in production.",
+  kar_ben6_text:  "Training on the latest CNC machines from leading manufacturers. You learn hands-on with the same equipment used in production.",
   kar_ben7_title: "Early completion possible",
   kar_ben7_text:  "With very good performance, it is possible to shorten the apprenticeship by up to 6 months.",
   kar_ben8_title: "95% retention rate",
@@ -1277,11 +1277,11 @@ en: {
   kar_apply_title:       "Applying is this simple",
   kar_apply_intro:       "The entire process from submission to feedback typically takes no longer than two weeks.",
   kar_apply_step1_title: "Submit your documents",
-  kar_apply_step1_text:  "Cover letter, CV and your last two school reports — online in under a minute.",
+  kar_apply_step1_text:  "Cover letter, CV and your last two school reports, online in under a minute.",
   kar_apply_step2_title: "Invitation",
   kar_apply_step2_text:  "If your profile fits, you will receive an invitation to a personal interview promptly.",
   kar_apply_step3_title: "Getting to know each other",
-  kar_apply_step3_text:  "Personal interview — optionally with a taster day or skills test.",
+  kar_apply_step3_text:  "Personal interview, optionally with a taster day or skills test.",
   kar_apply_step4_title: "Contract signing",
   kar_apply_step4_text:  "We look forward to welcoming you to Berghoff. Welcome aboard!",
   kar_apply_requirements:"School qualifications: For commercial and technical apprenticeships at least Realschulabschluss; for logistics a solid Hauptschulabschluss.",
@@ -1316,11 +1316,11 @@ en: {
 
   /* ── LIEFERANT – Process steps ────────────────────────────────── */
   sup_step1_title: "Initial Contact",
-  sup_step1_text:  "Get in touch — by email, phone or via the contact form on this page.",
+  sup_step1_text:  "Get in touch by email, phone or via the contact form on this page.",
   sup_step2_title: "Self-Assessment",
   sup_step2_text:  "Complete our supplier self-assessment questionnaire with information on certifications, capacities and core competencies.",
   sup_step3_title: "Review & Audit",
-  sup_step3_text:  "We assess your documentation. If the result is positive, a supplier audit may follow — on-site or remotely.",
+  sup_step3_text:  "We assess your documentation. If the result is positive, a supplier audit may follow, on-site or remotely.",
   sup_step4_title: "Approval",
   sup_step4_text:  "After successful qualification, we add you to our supplier database and discuss initial projects.",
 
@@ -1335,7 +1335,7 @@ en: {
   sup_doc1_desc:  "Online questionnaire to capture your company and qualification data. The basis for supplier qualification.",
   sup_doc1_link:  "Open online questionnaire",
   sup_doc2_title: "General Terms of Purchase",
-  sup_doc2_desc:  "Our General Terms of Purchase (GTP) — the legal basis for all supplier relationships.",
+  sup_doc2_desc:  "Our General Terms of Purchase (GTP), the legal basis for all supplier relationships.",
   sup_doc2_link:  "Download (PDF)",
   sup_doc3_title: "Quality Assurance Agreement (QAA)",
   sup_doc3_desc:  "Detailed requirements for quality, inspection, documentation and delivery conditions for our suppliers.",
